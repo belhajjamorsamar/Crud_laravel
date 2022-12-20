@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from html.mintone.jthemes.com/ui-tables.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Dec 2022 13:15:40 GMT -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Tell the browser to be responsive to screen width -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Admin Mintone">
+<meta name="author" content="Admin Mintone">
+<!-- Favicon icon -->
+<link rel="icon" type="image/png" sizes="16x16" href="assets/imgs/favicon.png">
+<title>Admin Mintone - Bootstrap 4 Admin Template</title>
+<!-- Bootstrap Core CSS -->
+<link href="plugins/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="plugins/vendors/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+<link href="plugins/vendors/bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet" type="text/css">
+<!-- JS Grid -->
+<link href="plugins/vendors/jsgrid/jsgrid.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/vendors/jsgrid/jsgrid-theme.min.css" rel="stylesheet" type="text/css"/>
+<!-- Custom CSS -->
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/style-2.css" rel="stylesheet">
+<!-- Footable CSS -->
+<link href="assets/css/pages/footable.core.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body class="fix-header fix-sidebar card-no-border">
+<!-- ============================================================== -->
+<!-- Preloader - style you can find in spinners.css -->
+<!-- ============================================================== -->
+<div class="preloader">
+  <div class="loader">
+    <div class="loader__figure"></div>
+    <p class="loader__label">Admin Mintone</p>
+  </div>
+</div>
+<!-- ============================================================== -->
+<!-- Main wrapper - style you can find in pages.scss -->
+<!-- ============================================================== -->
+<div id="main-wrapper">
+  <!-- ============================================================== -->
+  <!-- Container1140px -->
+  <!-- ============================================================== -->
+  <!-- ============================================================== -->
+  <!-- Topbar header - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <header class="topbar">
+    <div Class="container">
+      <nav class="navbar top-navbar navbar-expand-md navbar-light">
+        <!-- ============================================================== -->
+        <!-- Logo -->
+        <!-- ============================================================== -->
+        <div class="navbar-header"> <a class="navbar-brand" href="index.html">
+          <!-- Logo icon -->
+          <b>
+          <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+          <!-- Dark Logo icon -->
+          <img src="assets/imgs/logo-icon.png" alt="homepage" class="dark-logo" />
+          <!-- Light Logo icon -->
+          <img src="assets/imgs/logo-light-icon.png" alt="homepage" class="light-logo" /> </b>
+          <!--End Logo icon -->
+          <!-- Logo text -->
+          <span>
+          <!-- dark Logo text -->
+          <img src="assets/imgs/logo-text.png" alt="homepage" class="dark-logo dark-logo2" />
+          <!-- Light Logo text -->
+          <img src="assets/imgs/logo-light-text.png" class="light-logo" alt="homepage" /></span> </a> </div>
+        <!-- ============================================================== -->
+        <!-- End Logo -->
+        <!-- ============================================================== -->
+        <div class="top-bar-main">
+          <!-- ============================================================== -->
+          <!-- toggle and nav items -->
+          <!-- ============================================================== -->
+          <div class="float-left">
+            <ul class="navbar-nav">
+              <li class="nav-item "><a class="nav-link navbar-toggler sidebartoggler waves-effect waves-dark float-right" href="javascript:void(0)"><span class="navbar-toggler-icon"></span></a></li>
+              <!-- ============================================================== -->
+              <!-- Search -->
+              <!-- ============================================================== -->
+              <li class="nav-item hidden-xs-down app-search">
+                <input type="text" class="form-control float-left" placeholder="Type for search...">
+              </li>
+            </ul>
+          </div>
+          <!-- ============================================================== -->
+          <!-- User profile and search -->
+          <!-- ============================================================== -->
+          <div class="float-right pr-3">
+            <ul class="navbar-nav my-lg-0 float-right">
+              <!-- ============================================================== -->
+              <!-- Comment -->
+              <!-- ============================================================== -->
+              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-bell"></i>
+                <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right mailbox animated fadeIn">
+                  <ul>
+                    <li>
+                      <div class="drop-title">You have <span class="highlighted">3 new</span> Notifications</div>
+                    </li>
+                    <li>
+                      <div class="message-center">
+                        <!-- Message -->
+                        <a href="#">
+                        <div class="mail-content"> <i class="fas fa-envelope"></i> 2 new messages <span class="float-right text-light">15:07</span> </div>
+                        </a>
+                        <!-- Message -->
+                        <!-- Message -->
+                        <a href="#">
+                        <div class="mail-content"> <i class="fas fa-comment"></i> 1 new comment <span class="float-right text-light">11.08.2018</span> </div>
+                        </a>
+                        <!-- Message -->
+                        <a href="#">
+                        <div class="mail-content"> <i class="fas fa-calendar-alt"></i> 2 Events Soon <span class="float-right text-light">10.08.2018</span> </div>
+                        </a> </div>
+                    </li>
+                    <li> <a class="nav-link text-center" href="javascript:void(0);">See all notifications </a> </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- ============================================================== -->
+              <!-- End Comment -->
+              <!-- ============================================================== -->
+              <!-- ============================================================== -->
+              <!-- Messages -->
+              <!-- ============================================================== -->
+              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-message"></i>
+                <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                </a>
+                <div class="dropdown-menu mailbox dropdown-menu-right animated fadeIn" aria-labelledby="2">
+                  <ul>
+                    <li>
+                      <div class="drop-title">You have <span class="highlighted">7 new</span> messages</div>
+                    </li>
+                    <li>
+                      <div class="message-center">
+                        <!-- Message -->
+                        <a href="#">
+                        <div class="user-img"> <img src="assets/imgs/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                        <div class="mail-content">
+                          <div class="float-left">
+                            <h5 class="mt-0 text-dark">Amanda Robertson</h5>
+                            <span class="mail-desc text-light mt-1">Guterres was elec...</span> </div>
+                          <span class="float-right text-light text-right">11:18 <span class="clearfix"></span> <span class="label label-rounded label-primary">1</span> </span> </div>
+                        <div class="clearfix"></div>
+                        </a>
+                        <!-- Message -->
+                        <a href="#">
+                        <div class="user-img"> <img src="assets/imgs/users/img2.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                        <div class="mail-content">
+                          <div class="float-left">
+                            <h5 class="mt-0 text-dark">Danny Donavan</h5>
+                            <span class="mail-desc text-light mt-1">Guterres was elec...</span></div>
+                          <div class="float-right text-light text-right">09.07.2018 <span class="clearfix"></span> <span class="label label-rounded label-primary">2</span> </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        </a>
+                        <!-- Message -->
+                        <a href="#">
+                        <div class="user-img"> <img src="assets/imgs/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                        <div class="mail-content">
+                          <div class="float-left">
+                            <h5 class="mt-0 text-dark">Frank Hendrics</h5>
+                            <span class="mail-desc text-light mt-1">Guterres was elec...</span></div>
+                          <div class="float-right text-light text-right">10.08.2018 <span class="clearfix"></span> <span class="label label-rounded label-primary">4</span> </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        </a> </div>
+                    </li>
+                    <li> <a class="nav-link text-center" href="javascript:void(0);">See all notifications </a> </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- ============================================================== -->
+              <!-- End Messages -->
+              <!-- ============================================================== -->
+              <!-- ============================================================== -->
+              <!-- End mega menu -->
+              <!-- ============================================================== -->
+              <!-- ============================================================== -->
+              <!-- Profile -->
+              <!-- ============================================================== -->
+              <li class="nav-item dropdown u-pro"> <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/imgs/users/user-50x50.jpg" alt="user" class="" /><span class="circle-status"></span></a>
+                <div class="dropdown-menu dropdown-menu-right animated fadeIn">
+                  <ul class="dropdown-user">
+                    <li class="text-center">
+                      <div class="dw-user-box">
+                        <div class="u-img"><img src="assets/imgs/users/user-50x50.jpg" alt="user"></div>
+                        <div class="clearfix"></div>
+                        <div class="u-text">
+                          <h4>Mason Vox</h4>
+                          <p class="text-light"><span class="status-circle bg-success"></span>online <i class="fas fa-chevron-down small"></i></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#"><span class="status-circle bg-success"></span> online</a></li>
+                    <li><a href="#"><span class="status-circle bg-warning"></span> away</a></li>
+                    <li><a href="#"><span class="status-circle bg-danger"></span> not disturb</a></li>
+                    <li><a href="#"><span class="status-circle bg-light"></span> offline</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#"><i class="fas fa-user mr-1"></i> My Profile</a></li>
+                    <li><a href="#"><i class="fas fa-cog mr-1"></i> Settings</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#"><i class="fas fa-sign-in-alt mr-1"></i> Logout</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- ============================================================== -->
+  <!-- End Topbar header -->
+  <!-- ============================================================== -->
+  <!-- ============================================================== -->
+  <!-- Left Sidebar - style you can find in sidebar.scss  -->
+  <!-- ============================================================== -->
+  <div class="container">
+    <aside class="left-sidebar">
+      <ul class="nav-bar navbar-inverse">
+        <li class="nav-item"> <a class="nav-link navbar-toggler sidebartoggler hidden-sm-down waves-effect waves-dark float-right" href="javascript:void(0)"><span class="navbar-toggler-icon"></span></a> </li>
+      </ul>
+      <!-- Sidebar scroll-->
+      <div class="scroll-sidebar">
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav">
+          <ul id="sidebarnav">
+            <li class="clearfix"></li>
+            <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="flaticon-desktop-computer-screen-with-rising-graph"></i><span class="hide-menu">Dashboard</span></a>
+              <ul aria-expanded="false" class="collapse">
+                <li><a href="index.html">Server</a></li>
+                <li><a href="index-projects.html">Project</a></li>
+                <li><a href="index-analytics.html">Analytics</a></li>
+                <li><a href="index-shop.html">Shop</a></li>
+              </ul>
+            </li>
+            <li><a href="calendar.html"><i class="flaticon-calendar"></i><span class="hide-menu">Calendar</span></a></li>
+            <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="flaticon-restaurant"></i><span class="hide-menu">Ecommerce</span></a>
+              <ul aria-expanded="false" class="collapse">
+                <li><a href="ecommerce-dashboard.html">Dashboard</a></li>
+                <li><a href="ecommerce-pro-list.html">Product List</a></li>
+                <li><a href="ecommerce-add-new.html">Add new product</a></li>
+                <li><a href="ecommerce-orders.html">Orders</a></li>
+                <li><a href="ecommerce-invoice.html">Invoice</a></li>
+                <li><a href="ecommerce-customers.html">Customers</a></li>
+              </ul>
+            </li>
+            <li><a href="email.html"><i class="flaticon-mail"></i> <span class="hide-menu">Mail</span></a></li>
+            <li><a href="chats.html"><i class="flaticon-speech"></i><span class="hide-menu">Chat</span></a></li>
+            <li><a href="to-do.html"><i class="flaticon-forms"></i><span class="hide-menu">To Do</span></a></li>
+            <li><a href="change-log.html"><i class="flaticon-file"></i><span class="hide-menu">Change Log</span></a></li>
+            <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="flaticon-switch"></i><span class="hide-menu">UI Elements</span></a>
+              <ul aria-expanded="false" class="collapse">
+                <li><a href="ui-profile.html">Profile</a></li>
+                <li><a href="ui-typography.html">Typography</a></li>
+                <li><a href="ui-buttons.html">Buttons</a></li>
+                <li><a href="ui-forms.html">Forms</a></li>
+                <li><a href="ui-icons.html">Icons</a></li>
+                <li><a href="ui-components.html">Components</a></li>
+                <li><a href="ui-cards.html">Cards</a></li>
+                <li><a href="ui-pricing-tables.html">Pricing tables</a></li>
+                <li><a href="ui-timeline.html">Timeline</a></li>
+                <li><a href="ui-charts.html">Charts</a></li>
+                <li><a href="ui-tables.html">Tables</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- End Sidebar navigation -->
+      </div>
+      <!-- End Sidebar scroll-->
+    </aside>
+    <!-- ============================================================== -->
+    <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Page wrapper  -->
+    <!-- ============================================================== -->
+    <div class="page-wrapper">
+      <div class="container-fluid">
+        <div class="row page-titles">
+          <div class="col-md-12 align-self-center">
+            <h6 class="card-subtitle m-t-15 text-muted">Use the classes btn <code>btn</code>, <code>btn-default</code>, <code>btn-default</code> to quickly create different kinds of buttons..</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="table-responsive">
+                  <h4 class="card-title text-uppercase m-b-0 pull-left">basic table</h4>
+                  <div class="pull-right">
+                    <button class="btn btn-rounded btn-primary m-b-10">Add Member</button>
+                  </div>
+                  <table id="example23" class="display nowrap table table m-t-30 table-hover2 contact-list footable-loaded footable">
+                    <thead>
+                    <tr class="table-header">
+                      <th>Member</th>
+                      <th>Position</th>
+                      <th>Email Address</th>
+                      <th>Phone</th>
+                      <th class="op-0 sorting">&nbsp;</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/d1.jpg" class="img-circle w-40 m-r-5" alt="" title=""> John Donovan<br></td>
+                      <td>Designer</td>
+                      <td>johnnydonovan@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/img-user.jpg" class="img-circle w-40 m-r-5" alt="" title=""> Alice Brodwain<br></td>
+                      <td>Developer</td>
+                      <td>alicebrodwain@gmail.com</td>
+                      <td>+9 70 45 100 450</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/1.jpg" class="img-circle w-40 m-r-5" alt="" title=""> Samanta Yakobsen<br></td>
+                      <td>Manager</td>
+                      <td>samantayak@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/2.jpg" class="img-circle w-40 m-r-5" alt="" title="">Mark Frankson<br></td>
+                      <td>Manager</td>
+                      <td>mark@gmail.com</td>
+                      <td>+9 70 45 107 552</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/avatar-4.jpg" class="img-circle w-40 m-r-5" alt="" title=""> Rebecca Raiden<br></td>
+                      <td>Developer</td>
+                      <td>rebecca1978@gmail.com</td>
+                      <td>+9 70 70 111 488</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/d1.jpg" class="img-circle w-40 m-r-5" alt="" title="">Brian Summerhoold<br></td>
+                      <td>Developer</td>
+                      <td>briansummer@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/d1.jpg" class="img-circle w-40 m-r-5" alt="" title="">Jessica Sandmayer<br></td>
+                      <td>Designer</td>
+                      <td>jessicasandmayer@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/1.png" class="img-circle w-40 m-r-5" alt="" title=""> Alexander Fray </td>
+                      <td>Developer</td>
+                      <td>alexanderfray@gmail.com</td>
+                      <td>+9 70 45 100 450</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/profile-img.jpg" class="img-circle w-40 m-r-5" alt="" title=""> Roberto Jovanni </td>
+                      <td>Manager</td>
+                      <td>robertojovanni@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/avatar-3.jpg" class="img-circle w-40 m-r-5" alt="" title="">Elon Frankson<br></td>
+                      <td>Manager</td>
+                      <td>elonelon@gmail.com</td>
+                      <td>+9 70 45 107 552</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/7.jpg" class="img-circle w-40 m-r-5" alt="" title=""> Reese Raiden<br></td>
+                      <td>Developer</td>
+                      <td>rebecca1978@gmail.com</td>
+                      <td>+9 70 70 111 488</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/d5.jpg" class="img-circle w-40 m-r-5" alt="" title="">Ian Summerhoold<br></td>
+                      <td>Developer</td>
+                      <td>iansummer@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row page-titles">
+          <div class="col-md-12 align-self-center">
+            <h6 class="card-subtitle m-t-15 text-muted">Use the classes <code>btn btn-default, btn-default, btn-default</code> to quickly create different kinds of buttons.</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="table-responsive m-t-0">
+                  <h4 class="card-title text-uppercase m-b-10">Striped rows with hover</h4>
+                  <div class="pull-right">
+                    <button class="btn btn-rounded btn-primary m-b-10">Add Member</button>
+                  </div>
+                  <table id="myTable" class="display nowrap table table m-t-30 table-hover2 contact-list footable-loaded footable">
+                    <thead>
+                    <tr class="table-header">
+                      <th>Member</th>
+                      <th>Position</th>
+                      <th>Email Address</th>
+                      <th>Phone</th>
+                      <th class="op-0 sorting">&nbsp;</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/d1.jpg" class="img-circle w-40 m-r-5" alt="" title=""> John Donovan<br></td>
+                      <td>Designer</td>
+                      <td>johnnydonovan@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/img-user.jpg" class="img-circle w-40 m-r-5" alt="" title=""> Alice Brodwain<br></td>
+                      <td>Developer</td>
+                      <td>alicebrodwain@gmail.com</td>
+                      <td>+9 70 45 100 450</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/1.jpg" class="img-circle w-40 m-r-5" alt="" title=""> Samanta Yakobsen<br></td>
+                      <td>Manager</td>
+                      <td>samantayak@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/2.jpg" class="img-circle w-40 m-r-5" alt="" title="">Mark Frankson<br></td>
+                      <td>Manager</td>
+                      <td>mark@gmail.com</td>
+                      <td>+9 70 45 107 552</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/avatar-4.jpg" class="img-circle w-40 m-r-5" alt="" title=""> Rebecca Raiden<br></td>
+                      <td>Developer</td>
+                      <td>rebecca1978@gmail.com</td>
+                      <td>+9 70 70 111 488</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/d1.jpg" class="img-circle w-40 m-r-5" alt="" title="">Brian Summerhoold<br></td>
+                      <td>Developer</td>
+                      <td>briansummer@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/d1.jpg" class="img-circle w-40 m-r-5" alt="" title="">Jessica Sandmayer<br></td>
+                      <td>Designer</td>
+                      <td>jessicasandmayer@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/1.png" class="img-circle w-40 m-r-5" alt="" title=""> Alexander Fray </td>
+                      <td>Developer</td>
+                      <td>alexanderfray@gmail.com</td>
+                      <td>+9 70 45 100 450</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/2.jpg" class="img-circle w-40 m-r-5" alt="" title=""> Roberto Jovanni </td>
+                      <td>Manager</td>
+                      <td>robertojovanni@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/avatar-3.jpg" class="img-circle w-40 m-r-5" alt="" title="">Elon Frankson<br></td>
+                      <td>Manager</td>
+                      <td>elonelon@gmail.com</td>
+                      <td>+9 70 45 107 552</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/7.jpg" class="img-circle w-40 m-r-5" alt="" title=""> Reese Raiden<br></td>
+                      <td>Developer</td>
+                      <td>rebecca1978@gmail.com</td>
+                      <td>+9 70 70 111 488</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><img src="assets/imgs/users/d5.jpg" class="img-circle w-40 m-r-5" alt="" title="">Ian Summerhoold<br></td>
+                      <td>Developer</td>
+                      <td>iansummer@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row page-titles">
+          <div class="col-md-12 align-self-center">
+            <h6 class="card-subtitle m-t-15 text-muted">Use the classes <code>btn btn-default, btn-default, btn-default</code> to quickly create different kinds of buttons.</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="table-responsive m-t-0">
+                  <h4 class="card-title text-uppercase m-b-10">Contextual Table</h4>
+                  <div class="pull-right">
+                    <button class="btn btn-rounded btn-primary">Add Member</button>
+                  </div>
+                  <table id="myTable2" class="display nowrap table tabletable-hover2 contact-list footable-loaded footable m-t-30">
+                    <thead>
+                    <tr class="table-header">
+                      <th>Member</th>
+                      <th>Position</th>
+                      <th>Email Address</th>
+                      <th>Phone</th>
+                      <th class="op-0 sorting">&nbsp;</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="text-dark weight-600"><span class="fa fa-circle text-danger circle-tab mr-3"></span> Jessica Sandmayer<br></td>
+                      <td>Designer</td>
+                      <td>jessicasandmayer@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><span class="fa fa-circle text-success circle-tab mr-3"></span> Jessica Sandmayer<br></td>
+                      <td>Designer</td>
+                      <td>jessicasandmayer@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><span class="fa fa-circle text-success circle-tab mr-3"></span> Jessica Sandmayer<br></td>
+                      <td>Designer</td>
+                      <td>jessicasandmayer@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><span class="fa fa-circle text-inverse circle-tab mr-3"></span> Jessica Sandmayer<br></td>
+                      <td>Designer</td>
+                      <td>jessicasandmayer@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><span class="fa fa-circle text-warning circle-tab mr-3"></span> Jessica Sandmayer<br></td>
+                      <td>Designer</td>
+                      <td>jessicasandmayer@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600"><span class="fa fa-circle text-success circle-tab mr-3"></span> Jessica Sandmayer<br></td>
+                      <td>Designer</td>
+                      <td>jessicasandmayer@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row page-titles">
+          <div class="col-md-12 align-self-center">
+            <h6 class="card-subtitle m-t-15 text-muted"> Use the classes <code>btn btn-default, btn-default, btn-default</code> to quickly create different kinds of buttons. </h6>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Column -->
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="table-responsive m-t-0">
+                  <h4 class="card-title text-uppercase m-b-10">edit table</h4>
+                  <div class="pull-right">
+                    <button class="btn btn-rounded btn-primary">Add Member</button>
+                  </div>
+                  <table class="table m-t-30  table-bordered" id="editable-datatable">
+                    <thead>
+                    <tr class="table-header">
+                      <th>Member</th>
+                      <th>Position</th>
+                      <th>Email Address</th>
+                      <th>Phone</th>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v text-default op-5"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="text-dark weight-600">John Donovan</td>
+                      <td>Designer</td>
+                      <td>johnnydonovan@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v text-default op-5"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600">alicebrodwain@gmail.com</td>
+                      <td>developer</td>
+                      <td>jessicasandmayer@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v text-default op-5"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600">Samanta Yakobsen</td>
+                      <td>manager</td>
+                      <td>samantayak@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v text-default op-5"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600">Brian Summerhoold</td>
+                      <td>developer</td>
+                      <td>briansummer@gmail.com</td>
+                      <td>+9 70 93 123 500</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v text-default op-5"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600">Rebecca Raiden</td>
+                      <td>developer</td>
+                      <td>rebecca1978@gmail.com</td>
+                      <td>+9 70 70 111 488</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v text-default op-5"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600">Elon Frankson</td>
+                      <td>front-end developer</td>
+                      <td>elonelon@gmail.com</td>
+                      <td>+9 70 45 107 552</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v text-default op-5"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600">Tobias MacKeaney</td>
+                      <td>back-end developer</td>
+                      <td>tobimackeaney@gmail.com</td>
+                      <td>+9 70 45 002 338</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v text-default op-5"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600">Jessica Sandmayer</td>
+                      <td>art director</td>
+                      <td>sandmayerjess@gmail.com</td>
+                      <td>+9 70 70 102 348</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v text-default op-5"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td class="text-dark weight-600">Roberto Jovanni</td>
+                      <td>developer</td>
+                      <td>roubertojovanni@gmail.com</td>
+                      <td>+9 70 97 173 018</td>
+                      <td><a href="#" class="dropdown-toggle no-after" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><i class="fas fa-ellipsis-v text-default op-5"></i></a>
+                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Edit</a> <a class="dropdown-item" href="#">Send Message</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--edit Table with sidebar filters-->
+        <div class="row page-titles">
+          <div class="col-md-12 align-self-center">
+            <h6 class="card-subtitle m-t-15 text-muted"> Use the classes <code>btn btn-default, btn-default, btn-default</code> to quickly create different kinds of buttons. </h6>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Column -->
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="table-responsive m-t-0">
+                  <div class="row m-b-20">
+                    <div class="col-md-6">
+                      <h4 class="card-title text-uppercase m-b-10">edit Table with sidebar filters</h4>
+                    </div>
+                    <div class="col-md-6 text-right">
+                      <div class="pull-right">
+                        <form class="form-search form-inline">
+                          <input type="text" class="search-query" placeholder="Search..." />
+                        </form>
+                        <button class="btn btn-rounded btn-primary">Add Member</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="jsgrid_1"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--edit Table with sidebar filters-->
+        <!--edit Table with sidebar filters-->
+        <div class="row page-titles">
+          <div class="col-md-12 align-self-center">
+            <h6 class="card-subtitle m-t-15 text-muted"> Use the classes <code>btn btn-default, btn-default, btn-default</code> to quickly create different kinds of buttons. </h6>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Column -->
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="table-responsive m-t-0">
+                  <div class="row m-b-20">
+                    <div class="col-md-6">
+                      <h4 class="card-title text-uppercase m-b-10">edit Table with top filters</h4>
+                    </div>
+                    <div class="col-md-6 text-right">
+                      <div class="pull-right">
+                        <form class="form-search form-inline">
+                          <input type="text" class="search-query" placeholder="Search..." />
+                        </form>
+                        <button class="btn btn-rounded btn-primary">Add Member</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="jsgrid_2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--edit Table with sidebar filters-->
+        <footer class="footer t-a-c mx-lg-3 mx-0 ">
+          <div class="p-2 bg-white">
+            <center> 2018 © Mintone Admin Dashboard / Design &amp; Developed By <a
+                    href="https://jthemes.com/" target="_blank">jThemes
+              Studio</a></center>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- All Jquery -->
+<!-- ============================================================== -->
+<script src="plugins/vendors/jquery/jquery.min.js"></script>
+<!-- Bootstrap popper Core JavaScript -->
+<script src="plugins/vendors/bootstrap/js/popper.min.js"></script>
+<script src="plugins/vendors/bootstrap/js/bootstrap.min.js"></script>
+<!-- slimscrollbar scrollbar JavaScript -->
+<script src="plugins/vendors/ps/perfect-scrollbar.jquery.min.js"></script>
+<!--Wave Effects -->
+<script src="assets/js/waves.js"></script>
+<!--Menu sidebar -->
+<script src="assets/js/sidebarmenu.js"></script>
+<!--Custom JavaScript -->
+<script src="assets/js/custom.min.js"></script>
+<!-- This is data table -->
+<script src="plugins/vendors/datatables/jquery.dataTables.min.js"></script>
+<script>
+    $(function() {
+        $('#myTable').DataTable();
+            var table = $('#example').DataTable({
+                "columnDefs": [{
+                    "visible": false,
+                    "targets": 5
+                }],
+                "order": [
+                    [2, 'asc']
+                ],
+                "displayLength": 6,
+                "drawCallback": function(settings) {
+                    var api = this.api();
+                    var rows = api.rows({
+                        page: 'current'
+                    }).nodes();
+                    var last = null;
+                    api.column(2, {
+                        page: 'current'
+                    }).data().each(function(group, i) {
+                        if (last !== group) {
+                            $(rows).eq(i).before('<tr class="group"><td colspan="5">' + group + '</td></tr>');
+                            last = group;
+                        }
+                    });
+                }
+            });
+            // Order by the grouping
+            $('#example tbody').on('click', 'tr.group', function() {
+                var currentOrder = table.order()[0];
+                if (currentOrder[0] === 2 && currentOrder[1] === 'asc') {
+                    table.order([2, 'desc']).draw();
+                } else {
+                    table.order([2, 'asc']).draw();
+                }
+            });
+
+
+
+
+
+
+
+
+        $('#myTable2').DataTable();
+            var table = $('#example').DataTable({
+                "columnDefs": [{
+                    "visible": false,
+                    "targets": 5
+                }],
+                "order": [
+                    [2, 'asc']
+                ],
+                "displayLength": 6,
+                "drawCallback": function(settings) {
+                    var api = this.api();
+                    var rows = api.rows({
+                        page: 'current'
+                    }).nodes();
+                    var last = null;
+                    api.column(2, {
+                        page: 'current'
+                    }).data().each(function(group, i) {
+                        if (last !== group) {
+                            $(rows).eq(i).before('<tr class="group"><td colspan="5">' + group + '</td></tr>');
+                            last = group;
+                        }
+                    });
+                }
+            });
+            // Order by the grouping
+            $('#example tbody').on('click', 'tr.group', function() {
+                var currentOrder = table.order()[0];
+                if (currentOrder[0] === 2 && currentOrder[1] === 'asc') {
+                    table.order([2, 'desc']).draw();
+                } else {
+                    table.order([2, 'asc']).draw();
+                }
+            });
+
+
+
+
+
+
+        $('#myTable3').DataTable();
+            var table = $('#example').DataTable({
+                "columnDefs": [{
+                    "visible": false,
+                    "targets": 5
+                }],
+                "order": [
+                    [2, 'asc']
+                ],
+                "displayLength": 6,
+                "drawCallback": function(settings) {
+                    var api = this.api();
+                    var rows = api.rows({
+                        page: 'current'
+                    }).nodes();
+                    var last = null;
+                    api.column(2, {
+                        page: 'current'
+                    }).data().each(function(group, i) {
+                        if (last !== group) {
+                            $(rows).eq(i).before('<tr class="group"><td colspan="5">' + group + '</td></tr>');
+                            last = group;
+                        }
+                    });
+                }
+            });
+            // Order by the grouping
+            $('#example tbody').on('click', 'tr.group', function() {
+                var currentOrder = table.order()[0];
+                if (currentOrder[0] === 2 && currentOrder[1] === 'asc') {
+                    table.order([2, 'desc']).draw();
+                } else {
+                    table.order([2, 'asc']).draw();
+                }
+            });
+
+
+        
+         
+    });
+    $('#example23').DataTable({
+        dom: 'Bfrtip',
+        buttons: [
+            'copy', 'csv', 'excel', 'pdf', 'print'
+        ]
+    });
+    </script>
+<script>
+$(function() {
+$('#editable-datatable').DataTable();
+});
+</script>
+<!-- Popup message jquery -->
+<script src="plugins/vendors/toast-master/js/jquery.toast.js"></script>
+<!-- Style switcher -->
+<script src="plugins/vendors/styleswitcher/jQuery.style.switcher.js"></script>
+<!-- Editable -->
+<script src="plugins/vendors/jquery-datatables-editable/jquery.dataTables.js"></script>
+<script src="plugins/vendors/datatables/dataTables.bootstrap.js"></script>
+<script src="plugins/vendors/tiny-editable/mindmup-editabletable.js"></script>
+<script src="plugins/vendors/tiny-editable/numeric-input-example.js"></script>
+<!-- JSgrid table JavaScript -->
+<script src="plugins/vendors/jsgrid/db.js"></script>
+<script src="plugins/vendors/jsgrid/jsgrid.min.js"></script>
+<script src="plugins/vendors/jsgrid/jsgrid-data.js"></script>
+</body>
+
+<!-- Mirrored from html.mintone.jthemes.com/ui-tables.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Dec 2022 13:15:44 GMT -->
+</html>

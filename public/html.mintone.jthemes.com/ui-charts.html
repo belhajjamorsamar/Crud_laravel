@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from html.mintone.jthemes.com/ui-charts.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Dec 2022 13:15:39 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Admin Mintone">
+    <meta name="author" content="Admin Mintone">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/imgs/favicon.png">
+    <title>Admin Mintone - Bootstrap 4 Admin Template</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="plugins/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="plugins/vendors/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <!-- This page CSS -->
+    <!-- chartist CSS -->
+    <link href="plugins/vendors/morrisjs/morris.css" rel="stylesheet">
+    <!--c3 CSS -->
+    <link href="plugins/vendors/c3-master/c3.min.css" rel="stylesheet">
+    <!--Toaster Popup message CSS -->
+    <link href="plugins/vendors/toast-master/css/jquery.toast.css" rel="stylesheet">
+    <!-- Dashboard server Page CSS -->
+    <link href="assets/css/pages/dashboard-server.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="fix-header fix-sidebar card-no-border">
+<!-- ============================================================== -->
+<!-- Preloader - style you can find in spinners.css -->
+<!-- ============================================================== -->
+<!-- ==============================================================<div class="preloader">
+  <div class="loader">
+    <div class="loader__figure"></div>
+    <p class="loader__label">Admin Mintone</p>
+  </div>
+</div> -->
+<!-- ============================================================== -->
+<!-- Main wrapper - style you can find in pages.scss -->
+<!-- ============================================================== -->
+<div id="main-wrapper">
+    <!-- ============================================================== -->
+    <!-- Container1140px -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Topbar header - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <header class="topbar">
+        <div Class="container">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header"><a class="navbar-brand" href="index.html">
+                    <!-- Logo icon -->
+                    <b>
+                        <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                        <!-- Dark Logo icon -->
+                        <img src="assets/imgs/logo-icon.png" alt="homepage" class="dark-logo"/>
+                        <!-- Light Logo icon -->
+                        <img src="assets/imgs/logo-light-icon.png" alt="homepage" class="light-logo"/> </b>
+                    <!--End Logo icon -->
+                    <!-- Logo text -->
+                    <span>
+          <!-- dark Logo text -->
+          <img src="assets/imgs/logo-text.png" alt="homepage" class="dark-logo dark-logo2"/>
+                        <!-- Light Logo text -->
+          <img src="assets/imgs/logo-light-text.png" class="light-logo" alt="homepage"/></span> </a></div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="top-bar-main">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <div class="float-left">
+                        <ul class="navbar-nav">
+                            <li class="nav-item "><a
+                                    class="nav-link navbar-toggler sidebartoggler waves-effect waves-dark float-right"
+                                    href="javascript:void(0)"><span class="navbar-toggler-icon"></span></a></li>
+                            <!-- ============================================================== -->
+                            <!-- Search -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item hidden-xs-down app-search">
+                                <input type="text" class="form-control float-left" placeholder="Type for search...">
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                    <div class="float-right pr-3">
+                        <ul class="navbar-nav my-lg-0 float-right">
+                            <!-- ============================================================== -->
+                            <!-- Comment -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle waves-effect waves-dark"
+                                                             href="#" data-toggle="dropdown" aria-haspopup="true"
+                                                             aria-expanded="false"> <i class="mdi mdi-bell"></i>
+                                <div class="notify"><span class="heartbit"></span> <span class="point"></span></div>
+                            </a>
+                                <div class="dropdown-menu dropdown-menu-right mailbox animated fadeIn">
+                                    <ul>
+                                        <li>
+                                            <div class="drop-title">You have <span class="highlighted">3 new</span>
+                                                Notifications
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="message-center">
+                                                <!-- Message -->
+                                                <a href="#">
+                                                    <div class="mail-content"><i class="fas fa-envelope"></i> 2 new
+                                                        messages <span class="float-right text-light">15:07</span></div>
+                                                </a>
+                                                <!-- Message -->
+                                                <!-- Message -->
+                                                <a href="#">
+                                                    <div class="mail-content"><i class="fas fa-comment"></i> 1 new
+                                                        comment <span class="float-right text-light">11.08.2018</span>
+                                                    </div>
+                                                </a>
+                                                <!-- Message -->
+                                                <a href="#">
+                                                    <div class="mail-content"><i class="fas fa-calendar-alt"></i> 2
+                                                        Events Soon <span
+                                                                class="float-right text-light">10.08.2018</span></div>
+                                                </a></div>
+                                        </li>
+                                        <li><a class="nav-link text-center" href="javascript:void(0);">See all
+                                            notifications </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- ============================================================== -->
+                            <!-- End Comment -->
+                            <!-- ============================================================== -->
+                            <!-- ============================================================== -->
+                            <!-- Messages -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle waves-effect waves-dark"
+                                                             href="#" id="2" data-toggle="dropdown" aria-haspopup="true"
+                                                             aria-expanded="false"> <i class="mdi mdi-message"></i>
+                                <div class="notify"><span class="heartbit"></span> <span class="point"></span></div>
+                            </a>
+                                <div class="dropdown-menu mailbox dropdown-menu-right animated fadeIn"
+                                     aria-labelledby="2">
+                                    <ul>
+                                        <li>
+                                            <div class="drop-title">You have <span class="highlighted">7 new</span>
+                                                messages
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="message-center">
+                                                <!-- Message -->
+                                                <a href="#">
+                                                    <div class="user-img"><img src="assets/imgs/users/1.jpg" alt="user"
+                                                                               class="img-circle"> <span
+                                                            class="profile-status online pull-right"></span></div>
+                                                    <div class="mail-content">
+                                                        <div class="float-left">
+                                                            <h5 class="mt-0 text-dark">Amanda Robertson</h5>
+                                                            <span class="mail-desc text-light mt-1">Guterres was elec...</span>
+                                                        </div>
+                                                        <span class="float-right text-light text-right">11:18 <span
+                                                                class="clearfix"></span> <span
+                                                                class="label label-rounded label-primary">1</span> </span>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </a>
+                                                <!-- Message -->
+                                                <a href="#">
+                                                    <div class="user-img"><img src="assets/imgs/users/img2.jpg"
+                                                                               alt="user" class="img-circle"> <span
+                                                            class="profile-status online pull-right"></span></div>
+                                                    <div class="mail-content">
+                                                        <div class="float-left">
+                                                            <h5 class="mt-0 text-dark">Danny Donavan</h5>
+                                                            <span class="mail-desc text-light mt-1">Guterres was elec...</span>
+                                                        </div>
+                                                        <div class="float-right text-light text-right">09.07.2018 <span
+                                                                class="clearfix"></span> <span
+                                                                class="label label-rounded label-primary">2</span></div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </a>
+                                                <!-- Message -->
+                                                <a href="#">
+                                                    <div class="user-img"><img src="assets/imgs/users/1.jpg" alt="user"
+                                                                               class="img-circle"> <span
+                                                            class="profile-status online pull-right"></span></div>
+                                                    <div class="mail-content">
+                                                        <div class="float-left">
+                                                            <h5 class="mt-0 text-dark">Frank Hendrics</h5>
+                                                            <span class="mail-desc text-light mt-1">Guterres was elec...</span>
+                                                        </div>
+                                                        <div class="float-right text-light text-right">10.08.2018 <span
+                                                                class="clearfix"></span> <span
+                                                                class="label label-rounded label-primary">4</span></div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </a></div>
+                                        </li>
+                                        <li><a class="nav-link text-center" href="javascript:void(0);">See all
+                                            notifications </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- ============================================================== -->
+                            <!-- End Messages -->
+                            <!-- ============================================================== -->
+                            <!-- ============================================================== -->
+                            <!-- End mega menu -->
+                            <!-- ============================================================== -->
+                            <!-- ============================================================== -->
+                            <!-- Profile -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item dropdown u-pro"><a
+                                    class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="#"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
+                                    src="assets/imgs/users/user-50x50.jpg" alt="user" class=""/><span
+                                    class="circle-status"></span></a>
+                                <div class="dropdown-menu dropdown-menu-right animated fadeIn">
+                                    <ul class="dropdown-user">
+                                        <li class="text-center">
+                                            <div class="dw-user-box">
+                                                <div class="u-img"><img src="assets/imgs/users/user-50x50.jpg"
+                                                                        alt="user"></div>
+                                                <div class="clearfix"></div>
+                                                <div class="u-text">
+                                                    <h4>Mason Vox</h4>
+                                                    <p class="text-light"><span class="status-circle bg-success"></span>online
+                                                        <i class="fas fa-chevron-down small"></i></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#"><span class="status-circle bg-success"></span> online</a></li>
+                                        <li><a href="#"><span class="status-circle bg-warning"></span> away</a></li>
+                                        <li><a href="#"><span class="status-circle bg-danger"></span> not disturb</a>
+                                        </li>
+                                        <li><a href="#"><span class="status-circle bg-light"></span> offline</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#"><i class="fas fa-user mr-1"></i> My Profile</a></li>
+                                        <li><a href="#"><i class="fas fa-cog mr-1"></i> Settings</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#"><i class="fas fa-sign-in-alt mr-1"></i> Logout</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- ============================================================== -->
+    <!-- End Topbar header -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <div class="container">
+        <aside class="left-sidebar">
+            <ul class="nav-bar navbar-inverse">
+                <li class="nav-item"><a
+                        class="nav-link navbar-toggler sidebartoggler hidden-sm-down waves-effect waves-dark float-right"
+                        href="javascript:void(0)"><span class="navbar-toggler-icon"></span></a></li>
+            </ul>
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="clearfix"></li>
+                        <li><a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
+                                class="flaticon-desktop-computer-screen-with-rising-graph"></i><span class="hide-menu">Dashboard</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="index.html">Server</a></li>
+                                <li><a href="index-projects.html">Project</a></li>
+                                <li><a href="index-analytics.html">Analytics</a></li>
+                                <li><a href="index-shop.html">Shop</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="calendar.html"><i class="flaticon-calendar"></i><span
+                                class="hide-menu">Calendar</span></a></li>
+                        <li><a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
+                                class="flaticon-restaurant"></i><span class="hide-menu">Ecommerce</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="ecommerce-dashboard.html">Dashboard</a></li>
+                                <li><a href="ecommerce-pro-list.html">Product List</a></li>
+                                <li><a href="ecommerce-add-new.html">Add new product</a></li>
+                                <li><a href="ecommerce-orders.html">Orders</a></li>
+                                <li><a href="ecommerce-invoice.html">Invoice</a></li>
+                                <li><a href="ecommerce-customers.html">Customers</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="email.html"><i class="flaticon-mail"></i> <span class="hide-menu">Mail</span></a>
+                        </li>
+                        <li><a href="chats.html"><i class="flaticon-speech"></i><span class="hide-menu">Chat</span></a>
+                        </li>
+                        <li><a href="to-do.html"><i class="flaticon-forms"></i><span class="hide-menu">To Do</span></a>
+                        </li>
+                        <li><a href="change-log.html"><i class="flaticon-file"></i><span
+                                class="hide-menu">Change Log</span></a></li>
+                        <li><a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
+                                class="flaticon-switch"></i><span class="hide-menu">UI Elements</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="ui-profile.html">Profile</a></li>
+                                <li><a href="ui-typography.html">Typography</a></li>
+                                <li><a href="ui-buttons.html">Buttons</a></li>
+                                <li><a href="ui-forms.html">Forms</a></li>
+                                <li><a href="ui-icons.html">Icons</a></li>
+                                <li><a href="ui-components.html">Components</a></li>
+                                <li><a href="ui-cards.html">Cards</a></li>
+                                <li><a href="ui-pricing-tables.html">Pricing tables</a></li>
+                                <li><a href="ui-timeline.html">Timeline</a></li>
+                                <li><a href="ui-charts.html">Charts</a></li>
+                                <li><a href="ui-tables.html">Tables</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- chart box one -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-8 col-md-6">
+                        <div class="card panel-main o-income panel-refresh">
+                            <div class="refresh-container">
+                                <div class="preloader">
+                                    <div class="loader">
+                                        <div class="loader__figure"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body panel-wrapper">
+                                <div class="d-flex m-b-10 no-block wow fadeIn" data-wow-duration="1s"
+                                     data-wow-delay="0.5s">
+                                    <h5 class="card-title m-b-0 align-self-center">Bar Chart</h5>
+                                    <div class="ml-auto text-light-blue"><a href="#"
+                                                                            class="pull-left text-light-blue inline-block refresh mr-15">
+                                        <i class="fas fa-sync"></i> Update </a></div>
+                                </div>
+                                <ul class="list-inline m-b-30 text-uppercase lp-5 font-medium font-12">
+                                    <li><i class="fa fa-square m-r-5 text-warning"></i> Total</li>
+                                    <li><i class="fa fa-square m-r-5 text-pink"></i> Used</li>
+                                    <li><i class="fa fa-square m-r-5 text-primary"></i> Free</li>
+                                </ul>
+                                <div id="memory_usage" style="height:260px; width:100%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <!-- Column -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body p-b-30">
+                                <div class="d-flex pt-3 p-b-20 no-block">
+                                    <div class="align-self-center mr-3">
+                                        <div id="sparkline14"></div>
+                                    </div>
+                                    <div class="align-self-center mr-auto">
+                                        <h2 class="m-b-0 text-uppercase font-18 font-medium lp-5">Life chart</h2>
+                                        <h6 class="text-light m-b-0">1,590</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body p-b-30">
+                                <div class="p-t-20">
+                                    <h2 class="m-b-0 text-uppercase font-18 font-medium lp-5  float-left">Bar Chart</h2>
+                                    <h6 class="m-b-0 float-right text-primary">2.3 ms</h6>
+                                    <div class="clearfix"></div>
+                                    <div id="sparkline12" class="text-center"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+                <!-- ============================================================== -->
+                <!-- End chart box one -->
+
+
+                <!-- chart box two -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex m-b-10 no-block">
+                                    <h5 class="card-title m-b-0 align-self-center">Area chart</h5>
+                                </div>
+                                <div id="extra-area-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+                <!-- ============================================================== -->
+                <!-- End chart box two -->
+
+                <!-- chart box two -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex m-b-10 no-block">
+                                    <h5 class="card-title m-b-0 align-self-center">Area chart with custom tooltip</h5>
+                                </div>
+                                <ul class="list-inline m-b-30 text-uppercase lp-5 font-medium font-12">
+                                    <li><i class="fa fa-square m-r-5 text-warning"></i> Sessions</li>
+                                    <li><i class="fa fa-square m-r-5 text-pink"></i> New Visitors</li>
+                                    <li><i class="fa fa-square m-r-5 text-primary"></i> Avg. Session Duration</li>
+                                </ul>
+                                <div id="extra-area-chart-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+                <!-- ============================================================== -->
+                <!-- End chart box two -->
+                <!-- chart box three -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-12 col-md-12">
+                        <div class="card  o-income">
+                            <div class="card-body">
+                                <div class="row no-margin">
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="d-flex panel-main m-b-10 no-block  panel-refresh">
+                                            <div class="refresh-container">
+                                                <div class="preloader">
+                                                    <div class="loader">
+                                                        <div class="loader__figure"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <h5 class="card-title m-b-0 align-self-center">Line chart</h5>
+                                            <div class="ml-auto text-light-blue"><a href="#"
+                                                                                    class="pull-left text-light-blue inline-block refresh mr-15">
+                                                <i class="fas fa-sync"></i> Update </a></div>
+                                        </div>
+                                        <ul class="list-inline m-b-10 text-uppercase lp-5 font-medium font-12">
+                                            <li><i class="fa fa-square m-r-5 text-warning"></i> CPU</li>
+                                            <li><i class="fa fa-square m-r-5 text-pink"></i> Memory</li>
+                                            <li><i class="fa fa-square m-r-5 text-primary"></i> Disc (C: D:)</li>
+                                        </ul>
+                                        <div id="morris-area-chart2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+                <!-- ============================================================== -->
+                <!-- End chart box three -->
+
+
+                <!-- chart box three -->
+                <!-- ============================================================== -->
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="p-10 no-block text-center">
+                                    <div class="align-slef-center">
+                                        <h2 class="m-b-0">68%</h2>
+                                        <h6 class="text-light m-b-25">Tasks done</h6>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80"
+                                             aria-valuemin="0" aria-valuemax="100" style="width:80%; height:5px;"><span
+                                                class="sr-only">80% Complete</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="p-10 no-block text-center">
+                                    <div class="align-slef-center">
+                                        <h2 class="m-b-0">21%</h2>
+                                        <h6 class="text-light m-b-25">In process Tasks</h6>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="30"
+                                             aria-valuemin="0" aria-valuemax="100" style="width:30%; height:5px;"><span
+                                                class="sr-only">30% Complete</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="p-10 no-block text-center">
+                                    <div class="align-slef-center">
+                                        <h2 class="m-b-0">11%</h2>
+                                        <h6 class="text-light m-b-25">Tasks done</h6>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="20"
+                                             aria-valuemin="0" aria-valuemax="100" style="width:20%; height:5px;"><span
+                                                class="sr-only">20% Complete</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- chart box three -->
+                <!-- ============================================================== -->
+
+
+                <!-- Info box -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex pt-3 pb-2 no-block">
+                                    <div class="align-self-center mr-3 knob-icon">
+                                        <input data-plugin="knob" class="dial" data-width="70" data-height="70"
+                                               data-linecap="round" data-fgColor="#f95476" data-thickness=".2"
+                                               value="85"/>
+                                        <i class="flaticon-tool text-pink"></i></div>
+                                    <div class="align-slef-center mr-auto">
+                                        <h2 class="m-b-0 text-uppercase font-18 font-medium lp-5">Storage</h2>
+                                        <h6 class="text-light m-b-0">Used <strong>315 Gb</strong> / Free <strong>25
+                                            Gb</strong></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <!-- Column -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex pt-3 pb-2 no-block">
+                                    <div class="align-self-center mr-3 knob-icon knob-icon-2">
+                                        <input class="dial" data-plugin="knob" data-width="70" data-height="70"
+                                               data-linecap="round" data-fgColor="#4886ff " data-thickness=".2"
+                                               value="40"/>
+                                        <i class="flaticon-tool-2 font-25 text-primary"></i></div>
+                                    <div class="align-slef-center mr-auto">
+                                        <h2 class="m-b-0 text-uppercase font-18 font-medium lp-5">Bandwidth</h2>
+                                        <h6 class="text-light m-b-0">100 mb/s</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <!-- Column -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex pt-3 pb-2 no-block">
+                                    <div class="align-self-center mr-3 knob-icon knob-icon-2">
+                                        <input data-plugin="knob" class="dial" data-width="70" data-height="70"
+                                               data-linecap="round" data-fgColor="#ffb74e" data-thickness=".2"
+                                               value="89"/>
+                                        <i class="flaticon-reload font-25 text-warning"></i></div>
+                                    <div class="align-slef-center mr-auto">
+                                        <h2 class="m-b-0 text-uppercase font-18 font-medium lp-5">Cluster Load</h2>
+                                        <h6 class="text-light m-b-0">89%</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Info box -->
+
+
+                <!-- chart box three -->
+
+                <!-- ============================================================== -->
+                <div class="row" id="basic-waypoint">
+                    <!-- Column -->
+                    <div class="col-lg-12 col-md-12">
+                        <div class="card o-income">
+                            <div class="card-body">
+                                <div class="row no-margin">
+                                    <div class="col-lg-8 col-md-6">
+                                        <div class="d-flex panel-main m-b-10 no-block  panel-refresh">
+                                            <div class="refresh-container">
+                                                <div class="preloader">
+                                                    <div class="loader">
+                                                        <div class="loader__figure"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <h5 class="card-title m-b-0 align-self-center">Line chart with sidebar</h5>
+                                            <div class="ml-auto text-light-blue"><a href="#"
+                                                                                    class="pull-left text-light-blue inline-block refresh mr-15">
+                                                <i class="fas fa-sync"></i> Update </a></div>
+                                        </div>
+                                        <ul class="list-inline m-b-10 text-uppercase lp-5 font-medium font-12">
+                                            <li><i class="fa fa-square m-r-5 text-warning"></i> CPU</li>
+                                            <li><i class="fa fa-square m-r-5 text-pink"></i> Memory</li>
+                                            <li><i class="fa fa-square m-r-5 text-primary"></i> Disc (C: D:)</li>
+                                        </ul>
+                                        <div id="morris-area-chart"></div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="panel-main pl-5 m-b-10 no-block  panel-refresh bordered-left-light">
+                                            <div class="refresh-container">
+                                                <div class="preloader">
+                                                    <div class="loader">
+                                                        <div class="loader__figure"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <h5 class="card-title m-b-0 align-self-center">CPU</h5>
+                                            <div class="block m-t-10 m-b-40">
+                                                <div class="cpu-div-left"><span
+                                                        class="block font-25 text-pink">10%</span> Using
+                                                </div>
+                                                <div class="cpu-div-right"><span class="block font-25 text-primary">2.98 GHz</span>
+                                                    Using
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <hr>
+                                            <h5 class="card-title m-t-30 m-b-0 align-self-center">Memory</h5>
+                                            <div class="block m-t-10 m-b-40">
+                                                <div class="cpu-div-left"><span
+                                                        class="block font-25 text-pink">10%</span> Using
+                                                </div>
+                                                <div class="cpu-div-right"><span class="block font-25 text-primary">2.98 GHz</span>
+                                                    Using
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <hr>
+                                            <h5 class="card-title m-t-30  m-b-0 align-self-center">Disc (C: D:)</h5>
+                                            <div class="block m-t-10 m-b-30">
+                                                <div class="cpu-div-left"><span
+                                                        class="block font-25 text-pink">10%</span> Using
+                                                </div>
+                                                <div class="cpu-div-right"><span class="block font-25 text-primary">2.98 GHz</span>
+                                                    Using
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+                <!-- ============================================================== -->
+                <!-- End chart box three -->
+
+
+                <!-- chart box pie -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card panel-main o-income panel-refresh">
+                            <div class="refresh-container">
+                                <div class="preloader">
+                                    <div class="loader">
+                                        <div class="loader__figure"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body panel-wrapper">
+                                <div class="d-flex m-b-10 no-block">
+                                    <h5 class="card-title m-b-0 align-self-center">pie chart</h5>
+                                    <div class="ml-auto text-light-blue"><a href="#"
+                                                                            class="pull-left text-light-blue inline-block refresh mr-15">
+                                        <i class="fas fa-sync"></i> Update </a></div>
+                                </div>
+                                <ul class="list-inline m-b-30 text-uppercase lp-5 font-medium font-12">
+                                    <li><i class="fa fa-square m-r-5 text-primary"></i> Shoes</li>
+                                    <li><i class="fa fa-square m-r-5 text-warning"></i> Lingerie</li>
+                                    <li><i class="fa fa-square m-r-5 text-purple"></i> Denim</li>
+                                    <li><i class="fa fa-square m-r-5 text-pink"></i> Suits</li>
+                                </ul>
+
+                                <canvas id="chart4" height="150"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Column -->
+                    <!-- Column -->
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card panel-main o-income panel-refresh">
+                            <div class="refresh-container">
+                                <div class="preloader">
+                                    <div class="loader">
+                                        <div class="loader__figure"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body panel-wrapper">
+                                <div class="d-flex m-b-10 no-block">
+                                    <h5 class="card-title m-b-0 align-self-center">Bar Chart</h5>
+                                    <div class="ml-auto text-light-blue"><a href="#"
+                                                                            class="pull-left text-light-blue inline-block refresh mr-15">
+                                        <i class="fas fa-sync"></i> Update </a></div>
+                                </div>
+                                <ul class="list-inline m-b-30 text-uppercase lp-5 font-medium font-12">
+                                    <li><i class="fa fa-square m-r-5 text-primary"></i> Shoes</li>
+                                    <li><i class="fa fa-square m-r-5 text-warning"></i> Lingerie</li>
+                                    <li><i class="fa fa-square m-r-5 text-purple"></i> Denim</li>
+                                    <li><i class="fa fa-square m-r-5 text-pink"></i> Suits</li>
+                                </ul>
+
+                                <canvas id="chart3" height="150"></canvas>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Column -->
+                </div>
+                <!-- chart box pie -->
+                <!-- ============================================================== -->
+
+
+                <!-- chart box sharp -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-12 col-md-12">
+                        <div class="card panel-main o-income panel-refresh">
+                            <div class="refresh-container">
+                                <div class="preloader">
+                                    <div class="loader">
+                                        <div class="loader__figure"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body panel-wrapper">
+                                <div class="d-flex m-b-10 no-block">
+                                    <h5 class="card-title m-b-0 align-self-center">Sharp chart</h5>
+                                    <div class="ml-auto text-light-blue"><a href="#"
+                                                                            class="pull-left text-light-blue inline-block refresh mr-15">
+                                        <i class="fas fa-sync"></i> Update </a></div>
+                                </div>
+
+                                <div id="morris-area-chart3"></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Column -->
+
+                </div>
+                <!-- chart box sharp -->
+                <!-- ============================================================== -->
+
+
+                <footer class="footer t-a-c mx-lg-3 mx-0 ">
+                    <div class="p-2 bg-white">
+                        <center> 2018 © Mintone Admin Dashboard / Design &amp; Developed By <a
+                                href="https://jthemes.com/" target="_blank">jThemes
+                            Studio</a></center>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Page Content -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- End Container fluid  -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- footer -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- End footer -->
+    <!-- ============================================================== -->
+
+    <!-- ============================================================== -->
+    <!-- End Page wrapper  -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="plugins/vendors/jquery/jquery.min.js"></script>
+    <!-- Bootstrap popper Core JavaScript -->
+    <script src="plugins/vendors/bootstrap/js/popper.min.js"></script>
+    <script src="plugins/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+
+
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="plugins/vendors/ps/perfect-scrollbar.jquery.min.js"></script>
+    <!--Wave Effects -->
+    <script src="assets/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="assets/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="assets/js/custom.min.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <!--c3 JavaScript -->
+    <script src="plugins/vendors/d3/d3.min.js"></script>
+    <script src="plugins/vendors/c3-master/c3.min.js"></script>
+    <!--jquery knob -->
+    <script src="plugins/vendors/knob/jquery.knob.js"></script>
+    <!--Sparkline JavaScript -->
+    <script src="plugins/vendors/sparkline/jquery.sparkline.min.js"></script>
+
+    <!--Morris JavaScript -->
+    <script src="plugins/vendors/raphael/raphael-min.js"></script>
+    <script src="plugins/vendors/morrisjs/morris.js"></script>
+    <!-- Popup message jquery -->
+    <script src="plugins/vendors/toast-master/js/jquery.toast.js"></script>
+    <!-- Chart JS -->
+    <script src="plugins/vendors/Chart.js/Chart.min.js"></script>
+
+    <!-- page JS -->
+    <script src="assets/js/charts-page.js"></script>
+    <script>
+        $(".dial").knob();
+
+        $({animatedVal: 0}).animate({animatedVal: 80}, {
+            duration: 2000,
+            easing: "swing",
+            step: function () {
+                $(".dial").val(Math.ceil(this.animatedVal)).trigger("change");
+            }
+        });
+    </script>
+
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="plugins/vendors/styleswitcher/jQuery.style.switcher.js"></script>
+</div>
+</body>
+
+<!-- Mirrored from html.mintone.jthemes.com/ui-charts.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Dec 2022 13:15:40 GMT -->
+</html>

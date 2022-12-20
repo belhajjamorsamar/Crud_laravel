@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from html.mintone.jthemes.com/ui-components.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Dec 2022 13:15:34 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Admin Mintone">
+    <meta name="author" content="Admin Mintone">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/imgs/favicon.png">
+    <title>Admin Mintone - Bootstrap 4 Admin Template</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="plugins/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="plugins/vendors/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <!-- page css -->
+    <link href="assets/css/pages/tab-page.css" rel="stylesheet">
+    <!-- page css -->
+    <link href="assets/css/pages/file-upload.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="fix-header fix-sidebar card-no-border">
+<!-- ============================================================== -->
+<!-- Preloader - style you can find in spinners.css -->
+<!-- ============================================================== -->
+<div class="preloader">
+    <div class="loader">
+        <div class="loader__figure"></div>
+        <p class="loader__label">Admin Mintone</p>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- Main wrapper - style you can find in pages.scss -->
+<!-- ============================================================== -->
+<div id="main-wrapper">
+    <!-- ============================================================== -->
+    <!-- Container1140px -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Topbar header - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <header class="topbar">
+        <div Class="container">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header"><a class="navbar-brand" href="index.html">
+                    <!-- Logo icon -->
+                    <b>
+                        <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                        <!-- Dark Logo icon -->
+                        <img src="assets/imgs/logo-icon.png" alt="homepage" class="dark-logo"/>
+                        <!-- Light Logo icon -->
+                        <img src="assets/imgs/logo-light-icon.png" alt="homepage" class="light-logo"/> </b>
+                    <!--End Logo icon -->
+                    <!-- Logo text -->
+                    <span>
+          <!-- dark Logo text -->
+          <img src="assets/imgs/logo-text.png" alt="homepage" class="dark-logo dark-logo2"/>
+                        <!-- Light Logo text -->
+          <img src="assets/imgs/logo-light-text.png" class="light-logo" alt="homepage"/></span> </a></div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="top-bar-main">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <div class="float-left">
+                        <ul class="navbar-nav">
+                            <li class="nav-item "><a
+                                    class="nav-link navbar-toggler sidebartoggler waves-effect waves-dark float-right"
+                                    href="javascript:void(0)"><span class="navbar-toggler-icon"></span></a></li>
+                            <!-- ============================================================== -->
+                            <!-- Search -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item hidden-xs-down app-search">
+                                <input type="text" class="form-control float-left" placeholder="Type for search...">
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                    <div class="float-right pr-3">
+                        <ul class="navbar-nav my-lg-0 float-right">
+                            <!-- ============================================================== -->
+                            <!-- Comment -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle waves-effect waves-dark"
+                                                             href="#" data-toggle="dropdown" aria-haspopup="true"
+                                                             aria-expanded="false"> <i class="mdi mdi-bell"></i>
+                                <div class="notify"><span class="heartbit"></span> <span class="point"></span></div>
+                            </a>
+                                <div class="dropdown-menu dropdown-menu-right mailbox animated fadeIn">
+                                    <ul>
+                                        <li>
+                                            <div class="drop-title">You have <span class="highlighted">3 new</span>
+                                                Notifications
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="message-center">
+                                                <!-- Message -->
+                                                <a href="#">
+                                                    <div class="mail-content"><i class="fas fa-envelope"></i> 2 new
+                                                        messages <span class="float-right text-light">15:07</span></div>
+                                                </a>
+                                                <!-- Message -->
+                                                <!-- Message -->
+                                                <a href="#">
+                                                    <div class="mail-content"><i class="fas fa-comment"></i> 1 new
+                                                        comment <span class="float-right text-light">11.08.2018</span>
+                                                    </div>
+                                                </a>
+                                                <!-- Message -->
+                                                <a href="#">
+                                                    <div class="mail-content"><i class="fas fa-calendar-alt"></i> 2
+                                                        Events Soon <span
+                                                                class="float-right text-light">10.08.2018</span></div>
+                                                </a></div>
+                                        </li>
+                                        <li><a class="nav-link text-center" href="javascript:void(0);">See all
+                                            notifications </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- ============================================================== -->
+                            <!-- End Comment -->
+                            <!-- ============================================================== -->
+                            <!-- ============================================================== -->
+                            <!-- Messages -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle waves-effect waves-dark"
+                                                             href="#" id="2" data-toggle="dropdown" aria-haspopup="true"
+                                                             aria-expanded="false"> <i class="mdi mdi-message"></i>
+                                <div class="notify"><span class="heartbit"></span> <span class="point"></span></div>
+                            </a>
+                                <div class="dropdown-menu mailbox dropdown-menu-right animated fadeIn"
+                                     aria-labelledby="2">
+                                    <ul>
+                                        <li>
+                                            <div class="drop-title">You have <span class="highlighted">7 new</span>
+                                                messages
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="message-center">
+                                                <!-- Message -->
+                                                <a href="#">
+                                                    <div class="user-img"><img src="assets/imgs/users/1.jpg" alt="user"
+                                                                               class="img-circle"> <span
+                                                            class="profile-status online pull-right"></span></div>
+                                                    <div class="mail-content">
+                                                        <div class="float-left">
+                                                            <h5 class="mt-0 text-dark">Amanda Robertson</h5>
+                                                            <span class="mail-desc text-light mt-1">Guterres was elec...</span>
+                                                        </div>
+                                                        <span class="float-right text-light text-right">11:18 <span
+                                                                class="clearfix"></span> <span
+                                                                class="label label-rounded label-primary">1</span> </span>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </a>
+                                                <!-- Message -->
+                                                <a href="#">
+                                                    <div class="user-img"><img src="assets/imgs/users/img2.jpg"
+                                                                               alt="user" class="img-circle"> <span
+                                                            class="profile-status online pull-right"></span></div>
+                                                    <div class="mail-content">
+                                                        <div class="float-left">
+                                                            <h5 class="mt-0 text-dark">Danny Donavan</h5>
+                                                            <span class="mail-desc text-light mt-1">Guterres was elec...</span>
+                                                        </div>
+                                                        <div class="float-right text-light text-right">09.07.2018 <span
+                                                                class="clearfix"></span> <span
+                                                                class="label label-rounded label-primary">2</span></div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </a>
+                                                <!-- Message -->
+                                                <a href="#">
+                                                    <div class="user-img"><img src="assets/imgs/users/1.jpg" alt="user"
+                                                                               class="img-circle"> <span
+                                                            class="profile-status online pull-right"></span></div>
+                                                    <div class="mail-content">
+                                                        <div class="float-left">
+                                                            <h5 class="mt-0 text-dark">Frank Hendrics</h5>
+                                                            <span class="mail-desc text-light mt-1">Guterres was elec...</span>
+                                                        </div>
+                                                        <div class="float-right text-light text-right">10.08.2018 <span
+                                                                class="clearfix"></span> <span
+                                                                class="label label-rounded label-primary">4</span></div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </a></div>
+                                        </li>
+                                        <li><a class="nav-link text-center" href="javascript:void(0);">See all
+                                            notifications </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- ============================================================== -->
+                            <!-- End Messages -->
+                            <!-- ============================================================== -->
+                            <!-- ============================================================== -->
+                            <!-- End mega menu -->
+                            <!-- ============================================================== -->
+                            <!-- ============================================================== -->
+                            <!-- Profile -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item dropdown u-pro"><a
+                                    class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="#"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
+                                    src="assets/imgs/users/user-50x50.jpg" alt="user" class=""/><span
+                                    class="circle-status"></span></a>
+                                <div class="dropdown-menu dropdown-menu-right animated fadeIn">
+                                    <ul class="dropdown-user">
+                                        <li class="text-center">
+                                            <div class="dw-user-box">
+                                                <div class="u-img"><img src="assets/imgs/users/user-50x50.jpg"
+                                                                        alt="user"></div>
+                                                <div class="clearfix"></div>
+                                                <div class="u-text">
+                                                    <h4>Mason Vox</h4>
+                                                    <p class="text-light"><span class="status-circle bg-success"></span>online
+                                                        <i class="fas fa-chevron-down small"></i></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#"><span class="status-circle bg-success"></span> online</a></li>
+                                        <li><a href="#"><span class="status-circle bg-warning"></span> away</a></li>
+                                        <li><a href="#"><span class="status-circle bg-danger"></span> not disturb</a>
+                                        </li>
+                                        <li><a href="#"><span class="status-circle bg-light"></span> offline</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#"><i class="fas fa-user mr-1"></i> My Profile</a></li>
+                                        <li><a href="#"><i class="fas fa-cog mr-1"></i> Settings</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#"><i class="fas fa-sign-in-alt mr-1"></i> Logout</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- ============================================================== -->
+    <!-- End Topbar header -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <div class="container">
+        <aside class="left-sidebar">
+            <ul class="nav-bar navbar-inverse">
+                <li class="nav-item"><a
+                        class="nav-link navbar-toggler sidebartoggler hidden-sm-down waves-effect waves-dark float-right"
+                        href="javascript:void(0)"><span class="navbar-toggler-icon"></span></a></li>
+            </ul>
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="clearfix"></li>
+                        <li><a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
+                                class="flaticon-desktop-computer-screen-with-rising-graph"></i><span class="hide-menu">Dashboard</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="index.html">Server</a></li>
+                                <li><a href="index-projects.html">Project</a></li>
+                                <li><a href="index-analytics.html">Analytics</a></li>
+                                <li><a href="index-shop.html">Shop</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="calendar.html"><i class="flaticon-calendar"></i><span
+                                class="hide-menu">Calendar</span></a></li>
+                        <li><a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
+                                class="flaticon-restaurant"></i><span class="hide-menu">Ecommerce</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="ecommerce-dashboard.html">Dashboard</a></li>
+                                <li><a href="ecommerce-pro-list.html">Product List</a></li>
+                                <li><a href="ecommerce-add-new.html">Add new product</a></li>
+                                <li><a href="ecommerce-orders.html">Orders</a></li>
+                                <li><a href="ecommerce-invoice.html">Invoice</a></li>
+                                <li><a href="ecommerce-customers.html">Customers</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="email.html"><i class="flaticon-mail"></i> <span class="hide-menu">Mail</span></a>
+                        </li>
+                        <li><a href="chats.html"><i class="flaticon-speech"></i><span class="hide-menu">Chat</span></a>
+                        </li>
+                        <li><a href="to-do.html"><i class="flaticon-forms"></i><span class="hide-menu">To Do</span></a>
+                        </li>
+                        <li><a href="change-log.html"><i class="flaticon-file"></i><span
+                                class="hide-menu">Change Log</span></a></li>
+                        <li><a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
+                                class="flaticon-switch"></i><span class="hide-menu">UI Elements</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="ui-profile.html">Profile</a></li>
+                                <li><a href="ui-typography.html">Typography</a></li>
+                                <li><a href="ui-buttons.html">Buttons</a></li>
+                                <li><a href="ui-forms.html">Forms</a></li>
+                                <li><a href="ui-icons.html">Icons</a></li>
+                                <li><a href="ui-components.html">Components</a></li>
+                                <li><a href="ui-cards.html">Cards</a></li>
+                                <li><a href="ui-pricing-tables.html">Pricing tables</a></li>
+                                <li><a href="ui-timeline.html">Timeline</a></li>
+                                <li><a href="ui-charts.html">Charts</a></li>
+                                <li><a href="ui-tables.html">Tables</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- box -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title  pull-left text-uppercase m-b-20 mt-3">Default tabs</h4>
+                                <ul class="nav nav-pills pull-right m-b-20 mt-3">
+                                    <li class=" nav-item"><a href="#navpills-1" class="nav-link active"
+                                                             data-toggle="tab" aria-expanded="false">About</a></li>
+                                    <li class="nav-item"><a href="#navpills-2" class="nav-link" data-toggle="tab"
+                                                            aria-expanded="false">Services</a></li>
+                                    <li class="nav-item"><a href="#navpills-3" class="nav-link" data-toggle="tab"
+                                                            aria-expanded="true">Reviews</a></li>
+                                </ul>
+                                <div class="clearfix"></div>
+                                <hr>
+                                <div class="clearfix"></div>
+                                <div class="tab-content br-n pn mt-4">
+                                    <div id="navpills-1" class="tab-pane active">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="font-14 text-light-gray lh-24">
+                                                    <p>Use the classes <code>btn btn-default, btn-default,
+                                                        btn-default</code> to quickly create different kinds of buttons.
+                                                        Use the classes
+                                                        btn btn-default, btn-default, btn-default to quickly create
+                                                        different kinds of buttons. </p>
+                                                </div>
+                                                <div class="font-16 text-gray">
+                                                    <p>There, the snow stays soft and does not bind with other layers.
+                                                        In other cases, skiers, snowboarders or other alpine tourists
+                                                        can trigger an avalanche. </p>
+                                                    <p>As snow falls it builds up layer upon layer. After a certain time
+                                                        the layers harden and bond with one another. If they don’t the
+                                                        snow profile becomes unstable and soft layers can slide on top
+                                                        of harder ones. The composition of snow is an important factor.
+                                                        The composition of snow is an important factor.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="navpills-2" class="tab-pane">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="font-14 text-light-gray lh-24">
+                                                    <p>Use the classes <code>btn btn-default, btn-default,
+                                                        btn-default</code> to quickly create different kinds of buttons.
+                                                        Use the classes
+                                                        btn btn-default, btn-default, btn-default to quickly create
+                                                        different kinds of buttons. </p>
+                                                </div>
+                                                <div class="font-16 text-gray">
+                                                    <p>There, the snow stays soft and does not bind with other layers.
+                                                        In other cases, skiers, snowboarders or other alpine tourists
+                                                        can trigger an avalanche. </p>
+                                                    <p>As snow falls it builds up layer upon layer. After a certain time
+                                                        the layers harden and bond with one another. If they don’t the
+                                                        snow profile becomes unstable and soft layers can slide on top
+                                                        of harder ones. The composition of After a certain time the
+                                                        layers harden and bond with one another. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="navpills-3" class="tab-pane">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="font-14 text-light-gray lh-24">
+                                                    <p>Use the classes <code>btn btn-default, btn-default,
+                                                        btn-default</code> to quickly create different kinds of buttons.
+                                                        Use the classes
+                                                        btn btn-default, btn-default, btn-default to quickly create
+                                                        different kinds of buttons. </p>
+                                                </div>
+                                                <div class="font-16 text-gray">
+                                                    <p>There, the snow stays soft and does not bind with other layers.
+                                                        In other cases, skiers, snowboarders or other alpine tourists
+                                                        can trigger an avalanche. </p>
+                                                    <p>As snow falls it builds up layer upon layer. After a certain time
+                                                        the layers harden and bond with one another. If they don’t the
+                                                        snow profile becomes unstable and soft layers can slide on top
+                                                        of harder ones. The composition of snow is an important factor.
+                                                        The composition of snow is an important factor.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title text-uppercase  m-b-20 mt-3 pull-right">Left tabs</h4>
+                                <ul class="nav nav-pills pull-left m-b-20 mt-3">
+                                    <li class=" nav-item"><a href="#navpills2-1" class="nav-link active"
+                                                             data-toggle="tab" aria-expanded="false">About</a></li>
+                                    <li class="nav-item"><a href="#navpills2-2" class="nav-link" data-toggle="tab"
+                                                            aria-expanded="false">Services</a></li>
+                                    <li class="nav-item"><a href="#navpills2-3" class="nav-link" data-toggle="tab"
+                                                            aria-expanded="true">Reviews</a></li>
+                                </ul>
+                                <div class="clearfix"></div>
+                                <hr>
+                                <div class="clearfix"></div>
+                                <div class="tab-content br-n pn">
+                                    <div id="navpills2-1" class="tab-pane active">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="font-14 text-light-gray lh-24">
+                                                    <p>Use the classes <code>btn btn-default, btn-default,
+                                                        btn-default</code> to quickly create different kinds of buttons.
+                                                        Use the classes
+                                                        btn btn-default, btn-default, btn-default to quickly create
+                                                        different kinds of buttons. </p>
+                                                </div>
+                                                <div class="font-16 text-gray">
+                                                    <p>There, the snow stays soft and does not bind with other layers.
+                                                        In other cases, skiers, snowboarders or other alpine tourists
+                                                        can trigger an avalanche. </p>
+                                                    <p>As snow falls it builds up layer upon layer. After a certain time
+                                                        the layers harden and bond with one another. If they don’t the
+                                                        snow profile becomes unstable and soft layers can slide on top
+                                                        of harder ones. The composition of snow is an important factor.
+                                                        The composition of snow is an important factor.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="navpills2-2" class="tab-pane">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="font-14 text-light-gray lh-24">
+                                                    <p>Use the classes <code>btn btn-default, btn-default,
+                                                        btn-default</code> to quickly create different kinds of buttons.
+                                                        Use the classes
+                                                        btn btn-default, btn-default, btn-default to quickly create
+                                                        different kinds of buttons. </p>
+                                                </div>
+                                                <div class="font-16 text-gray">
+                                                    <p>There, the snow stays soft and does not bind with other layers.
+                                                        In other cases, skiers, snowboarders or other alpine tourists
+                                                        can trigger an avalanche. </p>
+                                                    <p>As snow falls it builds up layer upon layer. After a certain time
+                                                        the layers harden and bond with one another. If they don’t the
+                                                        snow profile becomes unstable and soft layers can slide on top
+                                                        of harder ones. The composition of After a certain time the
+                                                        layers harden and bond with one another. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="navpills2-3" class="tab-pane">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="font-14 text-light-gray lh-24">
+                                                    <p>Use the classes <code>btn btn-default, btn-default,
+                                                        btn-default</code> to quickly create different kinds of buttons.
+                                                        Use the classes
+                                                        btn btn-default, btn-default, btn-default to quickly create
+                                                        different kinds of buttons. </p>
+                                                </div>
+                                                <div class="font-16 text-gray">
+                                                    <p>There, the snow stays soft and does not bind with other layers.
+                                                        In other cases, skiers, snowboarders or other alpine tourists
+                                                        can trigger an avalanche. </p>
+                                                    <p>As snow falls it builds up layer upon layer. After a certain time
+                                                        the layers harden and bond with one another. If they don’t the
+                                                        snow profile becomes unstable and soft layers can slide on top
+                                                        of harder ones. The composition of snow is an important factor.
+                                                        The composition of snow is an important factor.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-12 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title  pull-left text-uppercase m-b-25">Pills</h4>
+                                <ul class="nav nav-pills nav-pills-tablet pull-right m-t-0 m-b-40">
+                                    <li class=" nav-item"><a href="#navpills3-1" class="nav-link active"
+                                                             data-toggle="tab" aria-expanded="false">About</a></li>
+                                    <li class="nav-item"><a href="#navpills3-2" class="nav-link" data-toggle="tab"
+                                                            aria-expanded="false">Services</a></li>
+                                    <li class="nav-item"><a href="#navpills3-3" class="nav-link" data-toggle="tab"
+                                                            aria-expanded="true">Reviews</a></li>
+                                </ul>
+                                <div class="clearfix"></div>
+                                <div class="tab-content br-n pn">
+                                    <div id="navpills3-1" class="tab-pane active">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="font-14 text-light-gray lh-24 mb-5">Use the classes <code>btn
+                                                    btn-default, btn-default, btn-default</code> to quickly create
+                                                    different kinds of buttons. Use the classes <code>btn btn-default,
+                                                        btn-default</code>.
+                                                </div>
+                                                <div class="font-16 text-gray">
+                                                    <p>An avalanche is a large mass of snow that moves quickly down a
+                                                        mountain. It breaks loose from the area around it and collects
+                                                        more and more snow as it pushes downward. On steeper slopes the
+                                                        snow usually breaks off more quickly.</p>
+                                                    <p>Avalanches occur in mountainous regions, for example the Alps,
+                                                        Himalayas or the Rocky Mountains. They can reach speeds of over
+                                                        100 km an hour and destroy forests and villages that are in
+                                                        their way. They can block roads and train tracks and make areas
+                                                        unreachable from the outside. Avalanches kill over a hundred
+                                                        people in Europe and North America every year, burying them
+                                                        below tons of snow. Once the snow is on the ground temperature
+                                                        changes its structure so that different layers of snow can form
+                                                        on the slope. On steeper slopes the snow usually breaks off more
+                                                        quickly.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="navpills3-2" class="tab-pane">
+                                        <div class="row">
+                                            <div class="col-md-12"> Raw denim you probably haven't heard of them jean
+                                                shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master
+                                                cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+                                                <p><br/>
+                                                    Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby
+                                                    sweater eu banh mi, qui irure terry richardson ex squid.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="navpills3-3" class="tab-pane">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <p>There, the snow stays soft and does not bind with other layers. In
+                                                    other cases, skiers, snowboarders or other alpine tourists can
+                                                    trigger an avalanche. </p>
+                                                <p>As snow falls it builds up layer upon layer. After a certain time the
+                                                    layers harden and bond with one another. If they don’t the snow
+                                                    profile becomes unstable and soft layers can slide on top of harder
+                                                    ones. The composition of snow is an important factor. The
+                                                    composition of snow is an important factor.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-body font-13">
+                                <h4 class="card-title text-uppercase m-b-40">Default accordion</h4>
+                                <h6 class="card-subtitle m-b-40 font-14">Use the classes <code>btn btn-default,
+                                    btn-default, btn-default. </code></h6>
+                                <div id="accordion-1" class="accordion-sec accordion-coloured">
+                                    <div class="card">
+                                        <div class="card-header" id="heading1">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0  font-16"
+                                                        data-toggle="collapse" data-target="#collapse1"
+                                                        aria-expanded="true" aria-controls="collapseOne"><span>1. What business are you doing?</span>
+                                                    <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapse1" class="collapse show" aria-labelledby="heading1"
+                                             data-parent="#accordion-1">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="heading2">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0 font-16 collapsed"
+                                                        data-toggle="collapse" data-target="#collapse2"
+                                                        aria-expanded="false" aria-controls="collapse2"><span>2. What colors do you like?</span>
+                                                    <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapse2" class="collapse" aria-labelledby="headingTwo"
+                                             data-parent="#accordion-1">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="heading3">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0   font-16 collapsed"
+                                                        data-toggle="collapse" data-target="#collapse3"
+                                                        aria-expanded="false" aria-controls="collapse3"> 3. What colors
+                                                    do you like? <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapse3" class="collapse" data-parent="#accordion-1">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="heading4">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0   font-16 collapsed"
+                                                        data-toggle="collapse" data-target="#collapse4"
+                                                        aria-expanded="false" aria-controls="collapse4"><span>4. Do you have some style suggestions?</span>
+                                                    <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapse4" class="collapse" data-parent="#accordion-1">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-body font-13">
+                                <h4 class="card-title text-uppercase m-b-40">Primary accordion</h4>
+                                <h6 class="card-subtitle m-b-40 font-14">Use the classes <code>btn btn-default,
+                                    btn-default</code> to quickly.</h6>
+                                <div id="accordion" class="accordion-sec">
+                                    <div class="card">
+                                        <div class="card-header" id="headingOne">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0   font-16"
+                                                        data-toggle="collapse" data-target="#collapseOne"
+                                                        aria-expanded="true" aria-controls="collapseOne"><span>1. What business are you doing?</span>
+                                                    <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                             data-parent="#accordion">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingTwo">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0   font-16 collapsed"
+                                                        data-toggle="collapse" data-target="#collapseTwo"
+                                                        aria-expanded="false" aria-controls="collapseTwo"><span>2. What colors do you like?</span>
+                                                    <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                             data-parent="#accordion">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingthree">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0   font-16 collapsed"
+                                                        data-toggle="collapse" data-target="#collapsethree"
+                                                        aria-expanded="false" aria-controls="collapsethree"><span>3. What colors do you like?</span>
+                                                    <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapsethree" class="collapse" data-parent="#accordion">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingfour">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0   font-16 collapsed"
+                                                        data-toggle="collapse" data-target="#collapsefour"
+                                                        aria-expanded="false" aria-controls="collapsefour"><span>4. Do you have some style suggestions?</span>
+                                                    <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapsefour" class="collapse" aria-labelledby="headingfour"
+                                             data-parent="#accordion">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-body font-13">
+                                <h4 class="card-title text-uppercase m-b-40">colored accordion</h4>
+                                <h6 class="card-subtitle m-b-40 font-14">Use the classes <code>btn btn-default,
+                                    btn-default, btn-default.</code></h6>
+                                <div id="accordion-2" class="accordion-sec accordion-coloured">
+                                    <div class="card">
+                                        <div class="card-header bg-primary">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0  font-16 text-white"
+                                                        data-toggle="collapse" data-target="#collapse1-1"
+                                                        aria-expanded="true" aria-controls="collapseOne">
+                                                    <span>1. What business are you doing?</span> <i
+                                                        class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapse1-1" class="collapse show" aria-labelledby="heading1"
+                                             data-parent="#accordion-2">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header bg-primary">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0 font-16 text-white collapsed"
+                                                        data-toggle="collapse" data-target="#collapse2-2"
+                                                        aria-expanded="false" aria-controls="collapse2-2"><span>2. What colors do you like?</span>
+                                                    <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapse2-2" class="collapse" aria-labelledby="headingTwo"
+                                             data-parent="#accordion-2">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header bg-primary">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0 font-16 collapsed  text-white"
+                                                        data-toggle="collapse" data-target="#collapse3-3"
+                                                        aria-expanded="false" aria-controls="collapse3-3"><span>3. What colors do you like?</span>
+                                                    <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapse3-3" class="collapse" data-parent="#accordion-2">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header bg-primary">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0 font-16 collapsed  text-white"
+                                                        data-toggle="collapse" data-target="#collapse4-4"
+                                                        aria-expanded="false" aria-controls="collapse4"><span>4. Do you have some style suggestions?</span>
+                                                    <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapse4-4" class="collapse" data-parent="#accordion-2">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-body font-13">
+                                <h4 class="card-title text-uppercase m-b-40">Bordered accordion</h4>
+                                <h6 class="card-subtitle m-b-40 font-14">Use the classes <code>btn btn-default,
+                                    btn-default</code> to quickly.</h6>
+                                <div id="accordion-3" class="accordion-sec">
+                                    <div class="card">
+                                        <div class="card-header border  bg-transparent" id="headingOne-1">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0   font-16"
+                                                        data-toggle="collapse" data-target="#collapseOne-1"
+                                                        aria-expanded="true" aria-controls="collapseOne-1"><span>1. What business are you doing?</span>
+                                                    <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseOne-1" class="collapse show border bg-transparent"
+                                             aria-labelledby="headingOne-1" data-parent="#accordion-3">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header border bg-transparent" id="headingOne-2">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0   font-16"
+                                                        data-toggle="collapse" data-target="#collapseOne-2"
+                                                        aria-expanded="true" aria-controls="collapseOne-2"><span>2. What colors do you like?</span>
+                                                    <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseOne-2" class="collapse border" aria-labelledby="headingOne-2"
+                                             data-parent="#accordion-3">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header border bg-transparent" id="headingfour-3">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0   font-16 collapsed"
+                                                        data-toggle="collapse" data-target="#collapsefour-3"
+                                                        aria-expanded="false" aria-controls="collapsefour-3"><span>3. What colors do you like?</span>
+                                                    <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapsefour-3" class="collapse border" aria-labelledby="headingfour-3"
+                                             data-parent="#accordion-3">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header border bg-transparent" id="headingfour-4">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link p-10 pl-4 pr-4 m-0   font-16 collapsed"
+                                                        data-toggle="collapse" data-target="#collapsefour-4"
+                                                        aria-expanded="false" aria-controls="collapsefour-4"><span>4. Do you have some style suggestions?</span>
+                                                    <i class="mdi mdi-plus pull-right"></i></button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapsefour-4" class="collapse border bg-transparent"
+                                             aria-labelledby="headingfour-4" data-parent="#accordion-3">
+                                            <div class="card-body">
+                                                <p class="p-10 m-0">In the past few years India has made attempts to get
+                                                    back several historic items. Some </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+                <!-- Column -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-12 col-md-12">
+                        <div class="card">
+                            <div class="card-body font-13">
+                                <h4 class="card-title text-uppercase m-b-40">Pagination</h4>
+                                <h6 class="card-subtitle m-b-40 font-14"> Use the classes <code>btn btn-default,
+                                    btn-default, btn-default</code> to quickly create different kinds of buttons. Use
+                                    the classes <code>btn btn-default,btn-default</code>. </h6>
+                                <div class="page-n">Prev <a href="#" class="active">1</a> <a href="#">2</a> <a href="#">3</a>
+                                    ... <a href="#">10</a> <a href="#">11</a> <a href="#">12</a> <a href="#">Next</a>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-5">
+                                        <ul class="pagination">
+                                            <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">10</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">11</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">12</a></li>
+                                            <li class="page-item"><a class="page-link bg-light-primary text-primary"
+                                                                     href="#">Next</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <ul class="pagination">
+                                            <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">10</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">11</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">12</a></li>
+                                            <li class="page-item"><a class="page-link bg-primary text-white" href="#">Next</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-body font-13">
+                                <h4 class="card-title text-uppercase m-b-40">Breadcrumbs with icons</h4>
+                                <h6 class="card-subtitle m-b-40 font-14"> Use the classes <code>btn btn-default,
+                                    btn-default, btn-default</code> to quickly create different kinds of buttons. Use
+                                    the classes <code>btn btn-default</code>. </h6>
+                                <div class="bg2 mb-3 cssmenu">
+                                    <ul>
+                                        <li><a href="#"><i class="mdi mdi-store"></i> E-commerce</a></li>
+                                        <li><a href="#"><i class="mdi mdi-calendar-text"></i> Order </a></li>
+                                        <li class="active"><a href="#"><i class="mdi mdi-cart"></i> Orders page</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mb-3 cssmenu">
+                                    <ul>
+                                        <li><a href="#"><i class="mdi mdi-store"></i> E-commerce</a></li>
+                                        <li><a href="#"><i class="mdi mdi-calendar-text"></i> Order </a></li>
+                                        <li class="active"><a href="#"><i class="mdi mdi-cart"></i> Orders page</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mb-3 cssmenu3">
+                                    <ul>
+                                        <li><a href="#"><i class="mdi mdi-store"></i> E-commerce</a></li>
+                                        <li><a href="#"><i class="mdi mdi-calendar-text"></i> Order </a></li>
+                                        <li class="active"><a href="#"><i class="mdi mdi-cart"></i> Orders page</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cssmenu4">
+                                    <ul>
+                                        <li><a href="#"><i class="mdi mdi-store"></i> E-commerce</a></li>
+                                        <li><a href="#"><i class="mdi mdi-calendar-text"></i> Order </a></li>
+                                        <li class="active"><a href="#"><i class="mdi mdi-cart"></i> Orders page</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent">
+                            <div class="card-body font-13">
+                                <div class="cssmenu bg2 mb-3">
+                                    <ul>
+                                        <li><a href="#"><i class="mdi mdi-store"></i> E-commerce</a></li>
+                                        <li><a href="#"><i class="mdi mdi-calendar-text"></i> Order </a></li>
+                                        <li class="active"><a href="#"><i class="mdi mdi-cart"></i> Orders page</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cssmenu2 mb-3">
+                                    <ul>
+                                        <li><a href="#"><i class="mdi mdi-store"></i> E-commerce</a></li>
+                                        <li><a href="#"><i class="mdi mdi-calendar-text"></i> Order </a></li>
+                                        <li class="active"><a href="#"><i class="mdi mdi-cart"></i> Orders page</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cssmenu3 mb-3">
+                                    <ul>
+                                        <li><a href="#"><i class="mdi mdi-store"></i> E-commerce</a></li>
+                                        <li><a href="#"><i class="mdi mdi-calendar-text"></i> Order </a></li>
+                                        <li class="active"><a href="#"><i class="mdi mdi-cart"></i> Orders page</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cssmenu4">
+                                    <ul>
+                                        <li><a href="#"><i class="mdi mdi-store"></i> E-commerce</a></li>
+                                        <li><a href="#"><i class="mdi mdi-calendar-text"></i> Order </a></li>
+                                        <li class="active"><a href="#"><i class="mdi mdi-cart"></i> Orders page</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <!-- Column -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-body font-13">
+                                <h4 class="card-title text-uppercase m-b-40">Breadcrumbs without icons</h4>
+                                <h6 class="card-subtitle m-b-40 font-14"> Use the classes <code>btn btn-default,
+                                    btn-default, btn-default</code> to quickly create different kinds of buttons. Use
+                                    the classes <code> btn btn-default</code>. </h6>
+                                <div class="cssmenu bg2 mb-3">
+                                    <ul>
+                                        <li><a href="#">E-commerce</a></li>
+                                        <li><a href="#">Orders</a></li>
+                                        <li class="active"><a href="#">Order page</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cssmenu2 mb-3">
+                                    <ul>
+                                        <li><a href="#">E-commerce</a></li>
+                                        <li><a href="#">Orders</a></li>
+                                        <li class="active"><a href="#">Order page</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mb-3 cssmenu3">
+                                    <ul>
+                                        <li><a href="#">E-commerce</a></li>
+                                        <li><a href="#">Orders</a></li>
+                                        <li class="active"><a href="#">Order page</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mb-3 cssmenu4">
+                                    <ul>
+                                        <li><a href="#">E-commerce</a></li>
+                                        <li><a href="#">Orders</a></li>
+                                        <li class="active"><a href="#">Order page</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent">
+                            <div class="card-body font-13">
+                                <div class="bg2 mb-3 cssmenu">
+                                    <ul>
+                                        <li><a href="#">E-commerce</a></li>
+                                        <li><a href="#">Orders</a></li>
+                                        <li class="active"><a href="#">Order page</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cssmenu2 mb-3">
+                                    <ul>
+                                        <li><a href="#">E-commerce</a></li>
+                                        <li><a href="#">Orders</a></li>
+                                        <li class="active"><a href="#">Order page</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cssmenu3 mb-3">
+                                    <ul>
+                                        <li><a href="#">E-commerce</a></li>
+                                        <li><a href="#">Orders</a></li>
+                                        <li class="active"><a href="#">Order page</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cssmenu4 mb-3">
+                                    <ul>
+                                        <li><a href="#">E-commerce</a></li>
+                                        <li><a href="#">Orders</a></li>
+                                        <li class="active"><a href="#">Order page</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+
+                <div class="clear"></div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-body font-13">
+                                <h4 class="card-title text-uppercase m-b-40">Alerts with close</h4>
+                                <h6 class="card-subtitle m-b-40 font-14">Use the classes <code>btn btn-default,
+                                    btn-default</code> to quickly.</h6>
+                                <div>
+                                    <div class="alert alert-success font-16">Success! This action done successful
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><i
+                                                class="mdi mdi-close font-18"></i></button>
+                                    </div>
+                                    <div class="alert alert-danger font-16">Information! Know more about this action
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><i
+                                                class="mdi mdi-close font-18"></i></button>
+                                    </div>
+                                    <div class="alert alert-warning font-16">Warning! This action is not protected
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><i
+                                                class="mdi mdi-close font-18"></i></button>
+                                    </div>
+                                    <div class="alert alert-info font-16">Error! This action can not be completed
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><i
+                                                class="mdi mdi-close font-18"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title text-uppercase m-b-40">Alerts without close</h4>
+                                <h6 class="card-subtitle m-b-40 font-16">Use the classes <code>btn btn-default,
+                                    btn-default</code> to quickly.</h6>
+                                <div>
+                                    <div class="alert alert-success font-16"><span>Success!</span> This action done
+                                        successful
+                                    </div>
+                                    <div class="alert alert-info  font-16">Information! Know more about this action</div>
+                                    <div class="alert alert-warning  font-16"> Warning! This action is not protected</div>
+                                    <div class="alert alert-danger  font-16"> Error! This action can not be completed</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-body font-13">
+                        <h4 class="card-title text-uppercase m-b-40">Alerts with close</h4>
+                        <h6 class="card-subtitle m-b-40 font-14">Use the classes <code>btn btn-default, btn-default</code>
+                            to quickly.</h6>
+                        <div class="col-lg-7 col-md-12">
+                            <div class="alert  font-16 shadow-css"><span class="text-success"><i
+                                    class="mdi mdi-check-circle font-18"></i> Success!</span> This action done successful
+                                <button type="button" class="close text-light-gray" data-dismiss="alert" aria-label="Close">
+                                    <i class="mdi mdi-close font-16"></i></button>
+                            </div>
+                            <div class="alert font-16 shadow-css"><span class="text-primary"><i
+                                    class="mdi mdi-information font-18"></i> Information!</span> Know more about this action
+                                <button type="button" class="close text-light-gray" data-dismiss="alert" aria-label="Close">
+                                    <i class="mdi mdi-close font-16"></i></button>
+                            </div>
+                            <div class="alert  font-16 shadow-css"><span class="text-warning"><i
+                                    class="mdi mdi-alert-circle  font-18"></i> Warning!</span> This action is not protected
+                                <button type="button" class="close text-light-gray" data-dismiss="alert" aria-label="Close">
+                                    <i class="mdi mdi-close font-16"></i></button>
+                            </div>
+                            <div class="alert font-16 shadow-css"><span class="text-danger"><i
+                                    class="mdi mdi-close-circle  font-18"></i>  Error! </span> This action can not be
+                                completed
+                                <button type="button" class="close text-light-gray" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true"><i class="mdi mdi-close font-16"></i></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="footer t-a-c mx-lg-3 mx-0 ">
+                    <div class="p-2 bg-white">
+                        <center> 2018 © Mintone Admin Dashboard / Design &amp; Developed By <a
+                                href="https://jthemes.com/" target="_blank">jThemes
+                            Studio</a></center>
+                    </div>
+                </footer>
+
+            </div>
+
+
+
+            <!-- ============================================================== -->
+            <!-- End box -->
+
+        </div>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Wrapper -->
+<!-- ============================================================== -->
+<!-- All Jquery -->
+<!-- ============================================================== -->
+<script src="plugins/vendors/jquery/jquery.min.js"></script>
+<!-- Bootstrap popper Core JavaScript -->
+<script src="plugins/vendors/bootstrap/js/popper.min.js"></script>
+<script src="plugins/vendors/bootstrap/js/bootstrap.min.js"></script>
+<!-- slimscrollbar scrollbar JavaScript -->
+<script src="plugins/vendors/ps/perfect-scrollbar.jquery.min.js"></script>
+<!--Wave Effects -->
+<script src="assets/js/waves.js"></script>
+<!--Menu sidebar -->
+<script src="assets/js/sidebarmenu.js"></script>
+<!--Custom JavaScript -->
+<script src="assets/js/custom.min.js"></script>
+</body>
+
+<!-- Mirrored from html.mintone.jthemes.com/ui-components.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Dec 2022 13:15:34 GMT -->
+</html>

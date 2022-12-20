@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from html.mintone.jthemes.com/change-log.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Dec 2022 13:14:49 GMT -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Tell the browser to be responsive to screen width -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Admin Mintone">
+<meta name="author" content="Admin Mintone">
+<!-- Favicon icon -->
+<link rel="icon" type="image/png" sizes="16x16" href="assets/imgs/favicon.png">
+<title>Admin Mintone - Bootstrap 4 Admin Template</title>
+<!-- Bootstrap Core CSS -->
+<link href="plugins/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="plugins/vendors/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="assets/css/style.css" rel="stylesheet">
+<!-- Page CSS -->
+<link href="assets/css/pages/to-do.css" rel="stylesheet">
+<link href="plugins/vendors/bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet" type="text/css">
+<!-- summernotes CSS -->
+<link href="plugins/vendors/summernote/dist/summernote.css" rel="stylesheet" />
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body class="fix-header fix-sidebar card-no-border">
+<!-- ============================================================== -->
+<!-- Preloader - style you can find in spinners.css -->
+<!-- ============================================================== -->
+<div class="preloader">
+  <div class="loader">
+    <div class="loader__figure"></div>
+    <p class="loader__label">Admin Mintone</p>
+  </div>
+</div>
+<!-- ============================================================== -->
+<!-- Main wrapper - style you can find in pages.scss -->
+<!-- ============================================================== -->
+<div id="main-wrapper">
+  <!-- ============================================================== -->
+  <!-- Container1140px -->
+  <!-- ============================================================== -->
+  <!-- ============================================================== -->
+  <!-- Topbar header - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <header class="topbar">
+    <div Class="container">
+      <nav class="navbar top-navbar navbar-expand-md navbar-light">
+        <!-- ============================================================== -->
+        <!-- Logo -->
+        <!-- ============================================================== -->
+        <div class="navbar-header"> <a class="navbar-brand" href="index.html">
+          <!-- Logo icon -->
+          <b>
+          <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+          <!-- Dark Logo icon -->
+          <img src="assets/imgs/logo-icon.png" alt="homepage" class="dark-logo" />
+          <!-- Light Logo icon -->
+          <img src="assets/imgs/logo-light-icon.png" alt="homepage" class="light-logo" /> </b>
+          <!--End Logo icon -->
+          <!-- Logo text -->
+          <span>
+          <!-- dark Logo text -->
+          <img src="assets/imgs/logo-text.png" alt="homepage" class="dark-logo dark-logo2" />
+          <!-- Light Logo text -->
+          <img src="assets/imgs/logo-light-text.png" class="light-logo" alt="homepage" /></span> </a> </div>
+        <!-- ============================================================== -->
+        <!-- End Logo -->
+        <!-- ============================================================== -->
+        <div class="top-bar-main">
+          <!-- ============================================================== -->
+          <!-- toggle and nav items -->
+          <!-- ============================================================== -->
+          <div class="float-left">
+            <ul class="navbar-nav">
+              <li class="nav-item "><a class="nav-link navbar-toggler sidebartoggler waves-effect waves-dark float-right" href="javascript:void(0)"><span class="navbar-toggler-icon"></span></a></li>
+              <!-- ============================================================== -->
+              <!-- Search -->
+              <!-- ============================================================== -->
+              <li class="nav-item hidden-xs-down app-search">
+                <input type="text" class="form-control float-left" placeholder="Type for search...">
+              </li>
+            </ul>
+          </div>
+          <!-- ============================================================== -->
+          <!-- User profile and search -->
+          <!-- ============================================================== -->
+          <div class="float-right pr-3">
+            <ul class="navbar-nav my-lg-0 float-right">
+              <!-- ============================================================== -->
+              <!-- Comment -->
+              <!-- ============================================================== -->
+              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-bell"></i>
+                <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right mailbox animated fadeIn">
+                  <ul>
+                    <li>
+                      <div class="drop-title">You have <span class="highlighted">3 new</span> Notifications</div>
+                    </li>
+                    <li>
+                      <div class="message-center">
+                        <!-- Message -->
+                        <a href="#">
+                        <div class="mail-content"> <i class="fas fa-envelope"></i> 2 new messages <span class="float-right text-light">15:07</span> </div>
+                        </a>
+                        <!-- Message -->
+                        <!-- Message -->
+                        <a href="#">
+                        <div class="mail-content"> <i class="fas fa-comment"></i> 1 new comment <span class="float-right text-light">11.08.2018</span> </div>
+                        </a>
+                        <!-- Message -->
+                        <a href="#">
+                        <div class="mail-content"> <i class="fas fa-calendar-alt"></i> 2 Events Soon <span class="float-right text-light">10.08.2018</span> </div>
+                        </a> </div>
+                    </li>
+                    <li> <a class="nav-link text-center" href="javascript:void(0);">See all notifications </a> </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- ============================================================== -->
+              <!-- End Comment -->
+              <!-- ============================================================== -->
+              <!-- ============================================================== -->
+              <!-- Messages -->
+              <!-- ============================================================== -->
+              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-message"></i>
+                <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                </a>
+                <div class="dropdown-menu mailbox dropdown-menu-right animated fadeIn" aria-labelledby="2">
+                  <ul>
+                    <li>
+                      <div class="drop-title">You have <span class="highlighted">7 new</span> messages</div>
+                    </li>
+                    <li>
+                      <div class="message-center">
+                        <!-- Message -->
+                        <a href="#">
+                        <div class="user-img"> <img src="assets/imgs/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                        <div class="mail-content">
+                          <div class="float-left">
+                            <h5 class="mt-0 text-dark">Amanda Robertson</h5>
+                            <span class="mail-desc text-light mt-1">Guterres was elec...</span> </div>
+                          <span class="float-right text-light text-right">11:18 <span class="clearfix"></span> <span class="label label-rounded label-primary">1</span> </span> </div>
+                        <div class="clearfix"></div>
+                        </a>
+                        <!-- Message -->
+                        <a href="#">
+                        <div class="user-img"> <img src="assets/imgs/users/img2.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                        <div class="mail-content">
+                          <div class="float-left">
+                            <h5 class="mt-0 text-dark">Danny Donavan</h5>
+                            <span class="mail-desc text-light mt-1">Guterres was elec...</span></div>
+                          <div class="float-right text-light text-right">09.07.2018 <span class="clearfix"></span> <span class="label label-rounded label-primary">2</span> </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        </a>
+                        <!-- Message -->
+                        <a href="#">
+                        <div class="user-img"> <img src="assets/imgs/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                        <div class="mail-content">
+                          <div class="float-left">
+                            <h5 class="mt-0 text-dark">Frank Hendrics</h5>
+                            <span class="mail-desc text-light mt-1">Guterres was elec...</span></div>
+                          <div class="float-right text-light text-right">10.08.2018 <span class="clearfix"></span> <span class="label label-rounded label-primary">4</span> </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        </a> </div>
+                    </li>
+                    <li> <a class="nav-link text-center" href="javascript:void(0);">See all notifications </a> </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- ============================================================== -->
+              <!-- End Messages -->
+              <!-- ============================================================== -->
+              <!-- ============================================================== -->
+              <!-- End mega menu -->
+              <!-- ============================================================== -->
+              <!-- ============================================================== -->
+              <!-- Profile -->
+              <!-- ============================================================== -->
+              <li class="nav-item dropdown u-pro"> <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/imgs/users/user-50x50.jpg" alt="user" class="" /><span class="circle-status"></span></a>
+                <div class="dropdown-menu dropdown-menu-right animated fadeIn">
+                  <ul class="dropdown-user">
+                    <li class="text-center">
+                      <div class="dw-user-box">
+                        <div class="u-img"><img src="assets/imgs/users/user-50x50.jpg" alt="user"></div>
+                        <div class="clearfix"></div>
+                        <div class="u-text">
+                          <h4>Mason Vox</h4>
+                          <p class="text-light"><span class="status-circle bg-success"></span>online <i class="fas fa-chevron-down small"></i></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#"><span class="status-circle bg-success"></span> online</a></li>
+                    <li><a href="#"><span class="status-circle bg-warning"></span> away</a></li>
+                    <li><a href="#"><span class="status-circle bg-danger"></span> not disturb</a></li>
+                    <li><a href="#"><span class="status-circle bg-light"></span> offline</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#"><i class="fas fa-user mr-1"></i> My Profile</a></li>
+                    <li><a href="#"><i class="fas fa-cog mr-1"></i> Settings</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#"><i class="fas fa-sign-in-alt mr-1"></i> Logout</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- ============================================================== -->
+  <!-- End Topbar header -->
+  <!-- ============================================================== -->
+  <!-- ============================================================== -->
+  <!-- Left Sidebar - style you can find in sidebar.scss  -->
+  <!-- ============================================================== -->
+  <div class="container">
+    <aside class="left-sidebar">
+      <ul class="nav-bar navbar-inverse">
+        <li class="nav-item"> <a class="nav-link navbar-toggler sidebartoggler hidden-sm-down waves-effect waves-dark float-right" href="javascript:void(0)"><span class="navbar-toggler-icon"></span></a> </li>
+      </ul>
+      <!-- Sidebar scroll-->
+      <div class="scroll-sidebar">
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav">
+          <ul id="sidebarnav">
+            <li class="clearfix"></li>
+            <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="flaticon-desktop-computer-screen-with-rising-graph"></i><span class="hide-menu">Dashboard</span></a>
+              <ul aria-expanded="false" class="collapse">
+                <li><a href="index.html">Server</a></li>
+                <li><a href="index-projects.html">Project</a></li>
+                <li><a href="index-analytics.html">Analytics</a></li>
+                <li><a href="index-shop.html">Shop</a></li>
+              </ul>
+            </li>
+            <li><a href="calendar.html"><i class="flaticon-calendar"></i><span class="hide-menu">Calendar</span></a></li>
+            <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="flaticon-restaurant"></i><span class="hide-menu">Ecommerce</span></a>
+              <ul aria-expanded="false" class="collapse">
+                <li><a href="ecommerce-dashboard.html">Dashboard</a></li>
+                <li><a href="ecommerce-pro-list.html">Product List</a></li>
+                <li><a href="ecommerce-add-new.html">Add new product</a></li>
+                <li><a href="ecommerce-orders.html">Orders</a></li>
+                <li><a href="ecommerce-invoice.html">Invoice</a></li>
+                <li><a href="ecommerce-customers.html">Customers</a></li>
+              </ul>
+            </li>
+            <li><a href="email.html"><i class="flaticon-mail"></i> <span class="hide-menu">Mail</span></a></li>
+            <li><a href="chats.html"><i class="flaticon-speech"></i><span class="hide-menu">Chat</span></a></li>
+            <li><a href="to-do.html"><i class="flaticon-forms"></i><span class="hide-menu">To Do</span></a></li>
+            <li class="active"><a href="change-log.html"><i class="flaticon-file"></i><span class="hide-menu">Change Log</span></a></li>
+            <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="flaticon-switch"></i><span class="hide-menu">UI Elements</span></a>
+              <ul aria-expanded="false" class="collapse">
+                <li><a href="ui-profile.html">Profile</a></li>
+                <li><a href="ui-typography.html">Typography</a></li>
+                <li><a href="ui-buttons.html">Buttons</a></li>
+                <li><a href="ui-forms.html">Forms</a></li>
+                <li><a href="ui-icons.html">Icons</a></li>
+                <li><a href="ui-components.html">Components</a></li>
+                <li><a href="ui-cards.html">Cards</a></li>
+                <li><a href="ui-pricing-tables.html">Pricing tables</a></li>
+                <li><a href="ui-timeline.html">Timeline</a></li>
+                <li><a href="ui-charts.html">Charts</a></li>
+                <li><a href="ui-tables.html">Tables</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- End Sidebar navigation -->
+      </div>
+      <!-- End Sidebar scroll-->
+    </aside>
+    <!-- ============================================================== -->
+    <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Page wrapper  -->
+    <!-- ============================================================== -->
+    <div class="page-wrapper">
+      <!-- ============================================================== -->
+      <!-- Container fluid  -->
+      <!-- ============================================================== -->
+      <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- box -->
+        <!-- ============================================================== -->
+        <div class="row">
+          <div class="col-lg-3 col-md-3">
+            <div class="card bg-none">
+              <div class="card-body no inbox-panel pb-5"> <a href="#" data-toggle="modal" data-target=".add-task" class="btn btn-rounded btn-primary m-b-20 waves-effect waves-light">Support</a>
+                <hr class="mt-2 mb-2">
+                <div class="list-group b-0 mail-list"> <a href="#" class="list-group-item font-weight-bold">Version 1.1</a> <a href="#" class="list-group-item text-default">Version 1.2</a> <a href="#" class="list-group-item text-default">Version 1.3</a> <a href="#" class="list-group-item text-default">Version 2.0</a> <a href="#" class="list-group-item text-default">Version 2.1</a> <a href="#" class="list-group-item text-default">Version 2.2</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-9">
+            <div class="card panel-main o-income panel-refresh">
+              <div class="refresh-container">
+                <div class="preloader">
+                  <div class="loader">
+                    <div class="loader__figure"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body card2">
+                <div class="row">
+                  <div class="col-6 font-18 font-weight-bold text-uppercase">Version 1.1</div>
+                  <div class="col-6 text-right font-16 font-weight-bold text-uppercase">15 June 2017</div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-12" >
+                    <div class="row m-0">
+                      <p class="font-16"> Such large banknotes are not so popular in many countries. In the United States, the largest banknote is the $100 bill. After World War II the US stopped producing $500 and $1000 bills.</p>
+                      <div class="table-responsive">
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th colspan="2" class="font-18 text-left">New components</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td width="50"><a href="#" class="btn waves-effect waves-light btn-primary pt-0 pb-0 pl-4 pr-4 ml-3">new</a></td>
+                              <td class="text-dark font-weight-bold">Left sidebar (Blog_list_sidebar.html)</td>
+                            </tr>
+                            <tr class="bg-white-2">
+                              <td width="50"><a href="#" class="btn waves-effect waves-light btn-primary pt-0 pb-0 pl-4 pr-4 ml-3">new</a></td>
+                              <td class="text-dark font-weight-bold">Instagram widget (Blog_list_sidebar.html)</td>
+                            </tr>
+                            <tr>
+                              <td width="50"><a href="#" class="btn waves-effect waves-light btn-primary pt-0 pb-0 pl-4 pr-4 ml-3">new</a></td>
+                              <td class="text-dark font-weight-bold">Facebook widget (Blog_list_sidebar.html)</td>
+                            </tr>
+                            <tr class="bg-white-2">
+                              <td width="50"><a href="#" class="btn waves-effect waves-light btn-primary pt-0 pb-0 pl-4 pr-4 ml-3">new</a></td>
+                              <td class="text-dark font-weight-bold">Large slider (Shop_catolog.html)</td>
+                            </tr>
+                            <tr>
+                              <td width="50"><a href="#" class="btn waves-effect waves-light btn-primary pt-0 pb-0 pl-4 pr-4 ml-3">new</a></td>
+                              <td class="text-dark font-weight-bold">Footer variant with subscribe panel (Main_page.html)</td>
+                            </tr>
+                            <tr>
+                              <td width="50"><a href="#" class="btn waves-effect waves-light btn-primary pt-0 pb-0 pl-4 pr-4 ml-3">new</a></td>
+                              <td class="text-dark font-weight-bold">Product page with description (Product_page.html)</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th colspan="2" class="font-18 text-left">Plugins updated</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td width="50"><a href="#" class="btn waves-effect waves-light bg-c btn-warning  pt-0 pb-0 pl-4 pr-4 ml-3">update</a></td>
+                              <td class="text-dark font-weight-bold">Main library - host/home/library.js to <a href="#">v. 4.5.1</td>
+                            </tr>
+                            <tr class="bg-white-2">
+                              <td width="50"><a href="#" class="btn waves-effect waves-light bg-c btn-warning  pt-0 pb-0 pl-4 pr-4 ml-3">update</a></td>
+                              <td class="text-dark font-weight-bold">TinyMCE redactor - host/home/redactors/TinyMCE to <a href="#">v. 3.5</td>
+                            </tr>
+                            <tr>
+                              <td width="50"><a href="#" class="btn waves-effect waves-light bg-c btn-warning  pt-0 pb-0 pl-4 pr-4 ml-3">update</a></td>
+                              <td class="text-dark font-weight-bold">Weather widget - host/home/widgets/weather.js to <a href="#">v. 1.3.4</a></td>
+                            </tr>
+                            <tr class="bg-white-2">
+                              <td width="50"><a href="#" class="btn waves-effect waves-light bg-c btn-warning  pt-0 pb-0 pl-4 pr-4 ml-3">update</a></td>
+                              <td class="text-dark font-weight-bold">TinyMCE redactor - host/home/redactors/TinyMCE to <a href="#">v. 3.5</a></td>
+                            </tr>
+                            <tr>
+                              <td width="50"><a href="#" class="btn waves-effect waves-light bg-c btn-warning  pt-0 pb-0 pl-4 pr-4 ml-3">update</a></td>
+                              <td class="text-dark font-weight-bold">Main library - host/home/library.js to <a href="#">v. 4.5.1</a></td>
+                            </tr>
+                            <tr>
+                              <td width="50"><a href="#" class="btn waves-effect waves-light bg-c btn-warning  pt-0 pb-0 pl-4 pr-4 ml-3">update</a></td>
+                              <td class="text-dark font-weight-bold">Weather widget - host/home/widgets/weather.js to <a href="#">v. 1.3.4</a></td>
+                            </tr>
+                            <tr>
+                              <td width="50"><a href="#" class="btn waves-effect waves-light bg-c btn-warning  pt-0 pb-0 pl-4 pr-4 ml-3">update</a></td>
+                              <td class="text-dark font-weight-bold">TinyMCE redactor - host/home/redactors/TinyMCE to <a href="#">v. 3.5</a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th colspan="2" class="font-18 text-left">Fixed bugs</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td width="50"><a href="#" class="btn waves-effect waves-light btn-success  pt-0 pb-0 pl-4 pr-4 ml-3">fixed</a></td>
+                              <td class="text-dark font-weight-bold"> Feedback form (Contact.html)</td>
+                            </tr>
+                            <tr class="bg-white-2">
+                              <td width="50"><a href="#" class="btn waves-effect waves-light btn-success  pt-0 pb-0 pl-4 pr-4 ml-3">fixed</a></td>
+                              <td class="text-dark font-weight-bold">Buttons with icons (Main_page.html)</td>
+                            </tr>
+                            <tr>
+                              <td width="50"><a href="#" class="btn waves-effect waves-light btn-success  pt-0 pb-0 pl-4 pr-4 ml-3">fixed</a></td>
+                              <td class="text-dark font-weight-bold">Select list in header (Shop_catalog.html)</td>
+                            </tr>
+                            <tr class="bg-white-2">
+                              <td width="50"><a href="#" class="btn waves-effect waves-light btn-success  pt-0 pb-0 pl-4 pr-4 ml-3">fixed</a></td>
+                              <td class="text-dark font-weight-bold">Buttons with icons (Main_page.html)</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th colspan="2" class="font-18 text-left">Improvements</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td width="50"><a href="#" class="btn waves-effect waves-light btn bg-purple text-white  pt-0 pb-0 pl-4 pr-4 ml-3">improved</a></td>
+                              <td class="text-dark font-weight-bold">Quality of images in catalog (Shop_catalog.html)</td>
+                            </tr>
+                            <tr class="bg-white-2">
+                              <td width="50"><a href="#" class="btn waves-effect waves-light btn bg-purple text-white  pt-0 pb-0 pl-4 pr-4 ml-3">improved</a></td>
+                              <td class="text-dark font-weight-bold">Font size in forms (Checkout.html)</td>
+                            </tr>
+                            <tr>
+                              <td width="50"><a href="#" class="btn waves-effect waves-light btn bg-purple text-white  pt-0 pb-0 pl-4 pr-4 ml-3">improved</a></td>
+                              <td class="text-dark font-weight-bold">Slider animation (Main.html)</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Column -->
+        <footer class="footer t-a-c mx-lg-3 mx-0 ">
+          <div class="p-2 bg-white">
+            <center> 2018 © Mintone Admin Dashboard / Design &amp; Developed By <a
+                    href="https://jthemes.com/" target="_blank">jThemes
+              Studio</a></center>
+          </div>
+        </footer>
+      </div>
+      <!-- ============================================================== -->
+      <!-- End box -->
+
+    </div>
+  </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Page Content -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- End Container fluid  -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- footer -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- End footer -->
+<!-- ============================================================== -->
+</div>
+<!-- ============================================================== -->
+<!-- End Page wrapper  -->
+<!-- ============================================================== -->
+</div>
+</div>
+<!-- ============================================================== -->
+<!-- End Wrapper -->
+<!-- ============================================================== -->
+<!-- All Jquery -->
+<!-- ============================================================== -->
+<script src="plugins/vendors/jquery/jquery.min.js"></script>
+<!-- Bootstrap popper Core JavaScript -->
+<script src="plugins/vendors/bootstrap/js/popper.min.js"></script>
+<script src="plugins/vendors/bootstrap/js/bootstrap.min.js"></script>
+<!-- slimscrollbar scrollbar JavaScript -->
+<script src="plugins/vendors/ps/perfect-scrollbar.jquery.min.js"></script>
+<!--Wave Effects -->
+<script src="assets/js/waves.js"></script>
+<!--Menu sidebar -->
+<script src="assets/js/sidebarmenu.js"></script>
+<!--Custom JavaScript -->
+<script src="assets/js/custom.min.js"></script>
+<!-- Popup message jquery -->
+<script src="plugins/vendors/toast-master/js/jquery.toast.js"></script>
+</body>
+
+<!-- Mirrored from html.mintone.jthemes.com/change-log.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Dec 2022 13:14:49 GMT -->
+</html>
